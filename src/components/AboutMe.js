@@ -1,11 +1,20 @@
 import React from 'react';
+import ReactTypingEffect from 'react-typing-effect'
 
 function AboutMe() {
 
     return (
     <div>
     <h1>Hello!</h1>
-    <h2>I am Tammy Wong and I am a</h2> <h3 class="typing-demo">software developer.</h3>
+    <h2>I am Tammy Wong and I am a</h2> 
+
+    <h3 className="typing-demo">
+    <ReactTypingEffect
+      text={["software developer."]}
+    />
+    </h3>
+
+    {/* <h3 class="typing-demo">software developer.</h3> */}
     {/* <p>
     Passionate. Honest. Hard-worker.
     <br/>
