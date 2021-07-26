@@ -2,54 +2,40 @@ body {
   font-family: arial;
   font-size: 14pt;
 }
-h1 {
-  font-size: 180pt;
-  padding: 0;
-  margin: 0;
-}
 h2 {
   font-weight: normal;
   letter-spacing: 3px;
   font-size: 32pt;
   padding: 0;
   margin: 0;
+
 }
 p {
   text-align: left;
   line-height: 1.6;
 }
-.wrapper {
+/* h3 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  white-space: pre-wrap;
+} */
+
+.typing-demo {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 32pt;
+  font-weight: normal;
+  color: #927B7B;
+  letter-spacing: 2px;
+}
+.header {
   height: 100vh;
-  /*This part is important for centering*/
   display: flex;
   align-items: center;
   justify-content: center;
 }
-h3 {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.typing-demo {
-  /* width: 19ch; */
-  /* animation: typing 2s steps(19), blink .5s step-end infinite alternate; */
-  white-space: nowrap;
-  overflow: hidden;
-  font-family: monospace;
-  font-size: 43pt;
-  font-weight: normal;
-  color: #927B7B;
-}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
+img {
+  border:#F3F3F3 1px solid;
+  width: 600px;
 }
