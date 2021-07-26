@@ -11,6 +11,7 @@ function AboutMe() {
     <h3 className="typing-demo">
     <ReactTypingEffect
       text={["software developer."]}
+      eraseDelay={1000}
     />
     </h3>
 
