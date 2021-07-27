@@ -10,14 +10,18 @@ function Projects() {
         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/4YpLQZZIsIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
         <img src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"/>
         <br/>
+        <div class="overlay"></div>
+        <div class="button"><a href="https://youtu.be/4YpLQZZIsIM" target="_blank">VIEW SITE</a></div>
         {/* <a href="https://youtu.be/4YpLQZZIsIM" target="_blank">Demo</a> | <a href="">GitHub</a>
         <br/> */}
+        <div className="project-p">
         <p>Instagram but with a calendar. 
           Get social with PalCal- a network for friends to snoop on each other's personal, 
           yet mildly public calendar. 
           RSVP to the same events they are attending, 
           create and host your own, or browse and filter through category via the event database!
         </p>
+        </div>
         </div>
 
         {/* <br/>
@@ -28,12 +32,14 @@ function Projects() {
         </a>
         <br/>
         {/* <a href="https://youtu.be/V3wfNaC8CMA" target="_blank">Demo</a> | <a href="">GitHub</a> */}
+        <div className="project-p">
         <p>
         It’s tough finding a restroom in big cities like New York.
          Loo Review is your go-to app to locate available restrooms for when 
-         you desperately need one. With features like filtering by borough, reviews from other users, new restroom suggestions,
+         you desperately need one. With features like filter by borough and reviews from other users,
          let Loo Review be part of your next trip to the Big Apple!
         </p>
+        </div>
         </div>
 
         {/* <br/>
@@ -46,10 +52,14 @@ function Projects() {
         </a>
         <br/>
         {/* <a href="https://youtu.be/2QiH4q0-KcA" target="_blank">Demo</a> | <a href="">GitHub</a> */}
+        <div className="project-p">
         <p>
           Simple Pokemon-themed memory game. 
-          Match Gengar, Snorlax, Lickitung, Grimer, Omanyte and Cubone to it's corresponding pair.
+          <br/>
+          <br/>
+          Match Gengar, Snorlax, Lickitung, Grimer, Omanyte and Cubone to it's corresponding pair to catch the Pokemon!
         </p>
+        </div>
         </div>
 
         {/* <br/>
@@ -61,11 +71,13 @@ function Projects() {
         </a>
         <br/>
         {/* <a href="https://youtu.be/1sezCSgZYDs" target="_blank">Demo</a> | <a href="">GitHub</a> */}
+        <div className="project-p">
         <p>
-        All Movies (but only from 2004) dedicates and provides movies released in 2004---
+        All Movies (but only from 2004) dedicates and provides movies released in 2004-
         the best year for movies! Users are able to browse  movies through categories, 
         add and delete movies and view movie trailers. 
         </p>
+        </div>
         </div>
 
       </div>
