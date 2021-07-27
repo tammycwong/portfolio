@@ -10,13 +10,6 @@ function Projects() {
 
         {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/4YpLQZZIsIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
         <img src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"/>
-        <ModalVideo
-          channel = "youtube"
-          autoplay
-          isOpen={isOpen1}
-          videoId="4YpLQZZIsIM"
-          onClose={() => setOpen1(false)}
-        />
         <span onClick={() => setOpen(true)}></span>
         <a href="https://youtu.be/4YpLQZZIsIM" target="_blank">Demo</a>
         <br/>
