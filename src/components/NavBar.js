@@ -1,19 +1,19 @@
 import React from 'react';
-import Link from 'react-router-dom';
+import { Link, animateScroll as scroll } from 'react-router-dom';
 
 function NavBar() {
 
     return (
     <div className="navbar">
-        {/* <Link to="about">
+        <Link to="/" smooth={true} duration={500}>
             About Me
         </Link>
-        <Link to="Projects">
+        <Link to="Projects" >
             Projects
         </Link>
-        <Link to="Contact">
+        <Link to="Contact" >
             Contact
-        </Link> */}
+        </Link>
 
     </div>
     
