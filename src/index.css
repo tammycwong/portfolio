@@ -18,12 +18,9 @@ p {
   font-size: 10pt;
   /* padding: 0px 70px 0px 70px; */
 }
-/* h3 {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  white-space: pre-wrap;
-} */
+h3 {
+  font-weight: normal;
+}
 
 .typing-demo {
   white-space: nowrap;
@@ -122,7 +119,7 @@ img {
 .fadeIn-bottom {
   top: 10%;
 }
-.project-title {
+.project-site {
   border: 3px solid #927B7B;
   padding: 10px 30px;
 }
