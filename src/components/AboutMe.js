@@ -17,7 +17,7 @@ function AboutMe() {
       I loved changing themes to my site through custom banners, mp3s and dynamic styling with JavaScript and CSS. <br/>
       Each layout taylored to my current mood as an angsty teen.<br/>
       <br/>
-      My background in cognitive and behaviorial psychology has helped me understand the human mind and how it works with user experience design.<br/>
+      My background in cognitive and behaviorial psychology has helped me understand the human mind and how it works with user experience<br/>
 
       </p>
       </div>

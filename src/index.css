@@ -10,6 +10,16 @@ h2 {
   font-size: 32pt;
   padding: 0;
   margin: 0;
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+  }
+  to {
+    margin-left: 0;
+  }
 }
 p {
   text-align: left;
@@ -20,6 +30,7 @@ p {
 }
 h3 {
   font-weight: normal;
+  /* margin: 0px auto; */
 }
 
 .typing-demo {
@@ -64,6 +75,12 @@ img {
 }
 .aboutme {
   text-align: left;
+}
+.projects-container {
+  /* display: flex; */
+  height: 100vh;
+  margin-top: 20px;
+  padding-top: 50px;
 }
 .projects {
   display: inline-grid;
@@ -153,13 +170,17 @@ a:hover {
   height: 100vh;
   background: #927B7B;
   opacity: 0.7;
+  margin-top: 20px;
+  padding-top: 50px;
 }
 input {
-  width: 70%;
-  height: 50%;
+  display: inline-block;
+  width: 50%;
+  line-height: 3em;
 }
 textarea {
-  width: 70%;
+  width: 50%;
+  line-height: 6em;
 }
 #submit-button {
   height: 50px;
@@ -168,4 +189,7 @@ textarea {
   border-color: white;
   color: white;
   background-color: #927B7B;
+}
+.margin {
+  margin: 0px auto;
 }

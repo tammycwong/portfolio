@@ -1,16 +1,21 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import ModalVideo from 'react-modal-video';
-import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Projects() {
   const [isOpen, setOpen] = useState(false)
+
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  }, []);
 
     return (
       <div className="projects-container">
 
         <h2>Projects</h2>
-        <div className="projects">
+        <div className="projects" data-aos="fade-right">
         <img className ="project-image" src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"/>
         <br/>
         <div class="overlay"></div>
@@ -43,7 +48,7 @@ function Projects() {
         </div>
 
 
-        <div className="projects">
+        <div className="projects" data-aos="fade-left">
         <img class="project-image" src="https://i.ibb.co/qmntqK2/Screen-Shot-2021-07-26-at-4-28-38-PM.png"/>
         <br/>
         <div class="overlay"></div>
@@ -78,7 +83,7 @@ function Projects() {
         </div>
         </div>
 
-        <div className="projects">
+        <div className="projects" data-aos="fade-right">
         {/* <img src="https://i.ibb.co/DKMgB2Z/Screen-Shot-2021-07-26-at-4-34-11-PM.png"/> */}
         <img className="project-image" src="https://i.ibb.co/tCbXD78/Screen-Shot-2021-07-26-at-4-32-41-PM.png"/>
         <div className="overlay"></div>
@@ -100,7 +105,7 @@ function Projects() {
             </a>
         <br/>
 
-        <p className="project-p">
+        <p className="project-p" >
           Simple Pokemon-themed memory game. 
           <br/>
           <br/>
@@ -110,7 +115,7 @@ function Projects() {
         </div>
         </div>
 
-        <div className="projects">
+        <div data-aos="fade-left" className="projects">
         <img src="https://i.ibb.co/XZ73RZK/Screen-Shot-2021-07-26-at-8-54-37-PM.png"/>
         <br/>
         <div className="overlay"></div>
@@ -139,7 +144,7 @@ function Projects() {
         <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
         </div>
 
-        <div className="projects">
+        <div className="projects" data-aos="fade-left">
         <img className="project-image" src="https://i.ibb.co/K28F2Zw/Screen-Shot-2021-07-28-at-11-29-28-AM.png"/>
         <br/>
         <div className="overlay"></div>
