@@ -15,19 +15,20 @@ function Projects() {
         <br/>
         <div class="overlay"></div>
         <div class ="project-details fadeIn-bottom">
+          <h3>palCal</h3>
           <a href="https://youtu.be/4YpLQZZIsIM" class="project-title" target="_blank">View Site</a>
         </div>
 
         {/* <a href="https://youtu.be/4YpLQZZIsIM" target="_blank">Demo</a> | <a href="">GitHub</a>
         <br/> */}
-        <div className="project-p">
+        {/* <div className="project-p">
         <p>Instagram but with a calendar. 
           Get social with PalCal- a network for friends to snoop on each other's personal, 
           yet mildly public calendar. 
           RSVP to the same events they are attending, 
           create and host your own, or browse and filter through category via the event database!
         </p>
-        </div>
+        </div> */}
         </div>
 
         {/* <br/>

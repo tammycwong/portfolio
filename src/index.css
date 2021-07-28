@@ -41,8 +41,8 @@ p {
   white-space: pre-wrap;
 }
 img {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  /* height: 200px; */
   border-bottom: #F3F3F3 1px solid;
   /* box-shadow: 10px 10px 5px #ccc; */
   transition: .5s ease;
@@ -66,12 +66,12 @@ img {
   display: flex;
   display: inline-grid;
   border:#F3F3F3 1px solid;
-  width: 300px;
+  width: 400px;
   margin: 30px;
   box-shadow: 2px 6px 8px #ccc;
   position: relative;
   overflow: hidden;
-  height: 450px;
+  /* height: 450px; */
 }
 .projects .overlay {
   background: rgba(0,0,0,0.7);
