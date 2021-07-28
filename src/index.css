@@ -71,6 +71,7 @@ img {
   box-shadow: 2px 6px 8px #ccc;
   position: relative;
   overflow: hidden;
+  height: 450px;
 }
 .projects .overlay {
   background: rgba(0,0,0,0.7);
@@ -87,7 +88,8 @@ img {
   transition: all 0.4s ease-in-out 0s;
 }
 .projects:hover .overlay {
-  opacity: .5;
+  opacity: 1;
+  background: white;
 }
 .project-details{
   position: absolute;
@@ -111,17 +113,23 @@ img {
   left: 50%;
 }
 .fadeIn-bottom {
-  top: 80%;
+  top: 10%;
 }
 .project-title {
-  border: 1px solid white;
-  padding: 10px;
+  border: 3px solid #927B7B;
+  padding: 10px 30px;
 }
 .project-p {
   padding: 0px 30px 0px 30px;
 }
 a {
   text-decoration: none;
+  color: black;
+  letter-spacing: 1px;
+}
+a:hover {
+  background: #927B7B;
+  color: white;
 }
 .overlay {
   position: absolute;

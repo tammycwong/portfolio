@@ -1,13 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ModalVideo from 'react-modal-video';
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
 function Projects() {
+  const [isOpen, setOpen] = useState(false)
 
     return (
       <div className="projects-container">
-      {/* <ScrollAnimation animateIn="fade-left" animateOut="" delay={1000}> */}
 
         <h2>Projects</h2>
         <div className="projects">
@@ -37,6 +37,7 @@ function Projects() {
         <img src="https://i.ibb.co/qmntqK2/Screen-Shot-2021-07-26-at-4-28-38-PM.png"/>
         </a>
         <br/>
+    
         {/* <a href="https://youtu.be/V3wfNaC8CMA" target="_blank">Demo</a> | <a href="">GitHub</a> */}
         <div className="project-p">
         <p>
@@ -85,7 +86,10 @@ function Projects() {
         </p>
         </div>
         </div>
-        {/* </ScrollAnimation> */}
+        {/* <React.Fragment>
+			    <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="V3wfNaC8CMA" onClose={() => setOpen(false)} />
+          <span onClick={()=> setOpen(true)}>VIEW DEMO</span>
+		    </React.Fragment> */}
       </div>
     );
 }
