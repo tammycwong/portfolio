@@ -16,6 +16,12 @@ function Projects() {
         <div class="overlay"></div>
         <div class ="project-details fadeIn-bottom">
           <h3>palCal</h3>
+          <p className="project-p">Instagram but with a calendar. 
+          Get social with PalCal- a network for friends to snoop on each other's personal, 
+          yet mildly public calendar. 
+          RSVP to the same events they are attending, 
+          create and host your own, or browse and filter through category via the event database!
+        </p>
           <a href="https://youtu.be/4YpLQZZIsIM" class="project-title" target="_blank">View Site</a>
         </div>
 
