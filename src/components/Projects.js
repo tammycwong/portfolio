@@ -1,17 +1,23 @@
 import React from 'react';
 import ModalVideo from 'react-modal-video';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 function Projects() {
 
     return (
       <div className="projects-container">
+      {/* <ScrollAnimation animateIn="fade-left" animateOut="" delay={1000}> */}
+
         <h2>Projects</h2>
         <div className="projects">
-        {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/4YpLQZZIsIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-        <img src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"/>
+        <img class ="project-image" src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"/>
         <br/>
         <div class="overlay"></div>
-        <div class="button"><a href="https://youtu.be/4YpLQZZIsIM" target="_blank">VIEW SITE</a></div>
+        <div class ="project-details fadeIn-bottom">
+          <a href="https://youtu.be/4YpLQZZIsIM" class="project-title" target="_blank">View Site</a>
+        </div>
+
         {/* <a href="https://youtu.be/4YpLQZZIsIM" target="_blank">Demo</a> | <a href="">GitHub</a>
         <br/> */}
         <div className="project-p">
@@ -79,7 +85,7 @@ function Projects() {
         </p>
         </div>
         </div>
-
+        {/* </ScrollAnimation> */}
       </div>
     );
 }
