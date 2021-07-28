@@ -62,7 +62,7 @@ function Projects() {
           <h3 className="">Loo Review: New York City</h3>
           <h4 className="tools">React</h4>
 
-          <a href="https://github.com/tammycwong/frontend_events">
+          <a href="https://github.com/pjhg14/Phase-2-rr-location-frontend" target="_blank">
             <img 
             className="icon" 
             src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
@@ -70,7 +70,7 @@ function Projects() {
             </a>
             
           {/* video modal */}
-            <a href="https://youtu.be/4YpLQZZIsIM">
+            <a href="https://youtu.be/4YpLQZZIsIM" target="_blank">
               <img 
               className="icon"
               src="https://pic.onlinewebfonts.com/svg/img_199595.png"
@@ -99,14 +99,15 @@ function Projects() {
         <div className="overlay"></div>
         <div class="project-details fadeIn-bottom">
           <h3>Pokemon Memory Game</h3>
-          <a href="https://github.com/tammycwong/frontend_events">
+          <h4 className="tools">JavaScript</h4>
+          <a href="https://github.com/tammycwong/pokemon-memory-game" target="_blank">
             <img 
             className="icon" 
             src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
             />
             </a>
 
-            <a href="">
+            <a href="" target="_blank">
               <img 
               className="icon"
               src="https://pic.onlinewebfonts.com/svg/img_199595.png"
@@ -130,14 +131,15 @@ function Projects() {
         <div class="overlay"></div>
         <div class ="project-details fadeIn-bottom">
           <h3>All Movies (but only from 2004)</h3>
-            <a href="https://github.com/tammycwong/frontend_events">
+          <h4 className="tools">JavaScript</h4>
+            <a href="https://github.com/adamberard24/front-end-with-AdamandTammy" target="_blank">
             <img 
             className="icon" 
             src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
             />
             </a>
 
-            <a href="">
+            <a href="https://youtu.be/1sezCSgZYDs" target="_blank">
               <img 
               className="icon"
               src="https://pic.onlinewebfonts.com/svg/img_199595.png"
