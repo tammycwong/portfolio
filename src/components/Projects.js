@@ -15,7 +15,21 @@ function Projects() {
         <br/>
         <div class="overlay"></div>
         <div class ="project-details fadeIn-bottom">
-          <h3>palCal</h3>
+          <h3>palCal
+            <a href="https://github.com/tammycwong/frontend_events">
+            <img 
+            className="icon" 
+            src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+            />
+            </a>
+
+            <a href="">
+              <img 
+              className="icon"
+              src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+              />
+            </a>
+          </h3>
           <p className="project-p">Instagram but with a calendar. 
           Get social with PalCal- a network for friends to snoop on each other's personal, 
           yet mildly public calendar. 

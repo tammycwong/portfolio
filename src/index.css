@@ -41,7 +41,7 @@ p {
   white-space: pre-wrap;
 }
 img {
-  width: 400px;
+  width: 450px;
   /* height: 200px; */
   border-bottom: #F3F3F3 1px solid;
   /* box-shadow: 10px 10px 5px #ccc; */
@@ -50,6 +50,13 @@ img {
   opacity: 1;
   display: block;
 
+}
+.icon {
+  width: 50px;
+  display: inline;
+}
+.icon:hover {
+  background: none;
 }
 
 .aboutme-container {
@@ -62,11 +69,9 @@ img {
   text-align: left;
 }
 .projects {
-  /* padding: 0px 30px 0px 30px; */
-  display: flex;
   display: inline-grid;
   border:#F3F3F3 1px solid;
-  width: 400px;
+  width: 450px;
   margin: 30px;
   box-shadow: 2px 6px 8px #ccc;
   position: relative;
