@@ -41,7 +41,6 @@ img {
   width: 550px;
   height: 370px;
   border-bottom: #F3F3F3 1px solid;
-  /* box-shadow: 10px 10px 5px #ccc; */
   transition: .5s ease;
   backface-visibility: hidden;
   opacity: 1;
@@ -71,7 +70,7 @@ img {
   border:#F3F3F3 1px solid;
   width: 550px;
   height: 370px;
-  margin: 30px;
+  margin: 20px;
   box-shadow: 2px 6px 8px #ccc;
   position: relative;
   overflow: hidden;
@@ -148,4 +147,25 @@ a:hover {
   color: #927B7B;
   padding: 0px auto;
   margin: 0px auto;
+}
+.contact-container {
+  /* display: flex; */
+  height: 100vh;
+  background: #927B7B;
+  opacity: 0.7;
+}
+input {
+  width: 70%;
+  height: 50%;
+}
+textarea {
+  width: 70%;
+}
+#submit-button {
+  height: 50px;
+  width: 100px;
+  text-transform: uppercase;
+  border-color: white;
+  color: white;
+  background-color: #927B7B;
 }
