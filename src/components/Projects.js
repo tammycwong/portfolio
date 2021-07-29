@@ -15,6 +15,38 @@ function Projects() {
       <div className="projects-container">
 
         <h2 data-aos="fade-left">Projects</h2>
+
+        <div className="projects" data-aos="fade-up">
+         <img src="https://i.ibb.co/K28F2Zw/Screen-Shot-2021-07-28-at-11-29-28-AM.png"/>
+         <br/>
+           <div className="overlay"></div>
+            <div className="project-details fadeIn-bottom">
+              <h3 className="">Life in Quarantine</h3>
+              <h4 className="tools">HTML | CSS | JavaScript</h4>
+                <a href="https://github.com/tammycwong/my-website" target="_blank">
+                <img
+                className ="icon"
+                src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+                />
+                </a>
+                
+               <a href="" target="_blank" className="">
+              <img 
+              className="icon"
+              src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+              />
+          </a>
+          <br/>
+          <p className="project-p">
+            (Flatiron Software Bootcamp Pre-Work) We all handled quarantine during the pandemic either in our own way,
+            or exactly the same- trends fueled by instagram and tik tok. I tried to find myself in those times and 
+            this is the gallery I made to document it. 
+          </p>
+          <a href="https://tammycwong.github.io/my-website/" target="_blank" class="project-site">View Site</a>
+
+        </div>
+        </div>
+
         <div className="projects" data-aos="fade-up">
         <img className ="project-image" src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"/>
         <br/>
@@ -144,35 +176,6 @@ function Projects() {
         <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
         </div>
 
-        <div className="projects" data-aos="fade-up">
-        <img className="project-image" src="https://i.ibb.co/K28F2Zw/Screen-Shot-2021-07-28-at-11-29-28-AM.png"/>
-        <br/>
-        <div className="overlay"></div>
-        <div className="project-details">
-          <h3 className="">Life in Quarantine</h3>
-          <h4 className="tools">HTML | CSS | JavaScript</h4>
-
-          <a href="" target="_blank">
-            <img
-            className ="icon"
-            src=""
-            />
-          </a>
-          <a href="https://youtu.be/4YpLQZZIsIM" target="_blank">
-              <img 
-              className="icon"
-              src="https://pic.onlinewebfonts.com/svg/img_199595.png"
-              />
-          </a>
-          <br/>
-          <p className="project-p">
-            Flatiron Software Bootcamp Pre-Work
-          </p>
-          <a href="https://tammycwong.github.io/my-website/" target="_blank" class="project-site">View Site</a>
-
-        </div>
-
-        </div>
         {/* <React.Fragment>
 			    <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="V3wfNaC8CMA" onClose={() => setOpen(false)} />
           <span onClick={()=> setOpen(true)}>VIEW DEMO</span>

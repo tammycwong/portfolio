@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-  font-family: arial;
+  font-family: 'Raleway', sans-serif;
   font-size: 14pt;
   max-width: 90%;
   margin: auto;
@@ -9,7 +9,7 @@ body {
 h2 {
   font-weight: normal;
   letter-spacing: 3px;
-  font-size: 32pt;
+  font-size: 38pt;
   padding: 0;
   margin: 0;
 }
@@ -22,6 +22,7 @@ p {
 }
 h3 {
   font-weight: normal;
+  letter-spacing: 2px;
   /* margin: 0px auto; */
 }
 
@@ -55,26 +56,22 @@ img {
   display: inline;
   height: 50px;
 }
-/* .icon:hover {
-  background: none;
-} */
 
 .aboutme-container {
   /* display: flex; */
   height: 100vh;
   border: 2px solid black;
   display: inline-grid;
-
-  /* background: #927B7B;
-  opacity: 0.7; */
 }
-.aboutme-details {
-}
+/* .aboutme-details {
+  width: 800px;
+} */
 .aboutme {
   text-align: left;
-  max-width: 800px;
+  /* width: 800px; */
   padding: 30px;
   display: flex;
+  
 }
 .profile-pic {
   border-radius: 8px;
@@ -86,7 +83,7 @@ img {
 }
 .projects-container {
   /* display: flex; */
-  height: 100vh;
+  /* height: 100vh; */
   margin-top: 20px;
   padding-top: 50px;
 }
@@ -111,9 +108,9 @@ img {
   bottom: 0;
   right: 0;
   opacity: 0;
-  -webkit-transition: all 0.4s ease-in-out 0s;
-  -moz-transition: all 0.4s ease-in-out 0s;
-  transition: all 0.4s ease-in-out 0s;
+  -webkit-transition: all 1.6s ease-in-out 0s;
+  -moz-transition: all 1.6s ease-in-out 0s;
+  transition: all 0.6s ease-in-out 0s;
 }
 .projects:hover .overlay {
   opacity: 1;
@@ -155,10 +152,14 @@ a {
   color: black;
   letter-spacing: 1px;
 }
-a:hover {
+.project-site:hover{
   background: #927B7B;
   color: white;
 }
+/* a:hover {
+  background: #927B7B;
+  color: white;
+} */
 .overlay {
   position: absolute;
   position: absolute;

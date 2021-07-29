@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
+import Typical from 'react-typical';
 
 function AboutMe() {
 
@@ -7,15 +7,22 @@ function AboutMe() {
     <div>
       <div className="header">
 
-        <h2>I am Tammy Wong and I am a </h2>
+        <h2>I am Tammy Wong and I am a{' '}</h2>
         <h3 className="typing-demo">
-        {'\n'}
-        <ReactTypingEffect
-          text={[" software developer."]}
-          typingDelay= {[1800]}
-          eraseDelay= {[4000]}
-        />
-
+          <Typical
+          loop= {Infinity}
+          wrapper="b"
+          steps={[
+            'software developer.',
+            1800,
+            'full stack engineer.',
+            1800,
+            'creative.',
+            1800,
+            'hypeman.',
+            1800,
+          ]}
+          />
         </h3>
       </div>
 
