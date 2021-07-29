@@ -154,14 +154,14 @@ function Projects() {
           <div className ="project-details fadeIn-bottom">
             <h3>Neopets 90s Reboot</h3>
             <h4 className="tools">React | Ruby on Rails</h4>
-            <a href="https://github.com/adamberard24/front-end-with-AdamandTammy" target="_blank">
+            <a className="disable" href="" target="_blank">
             <img 
             className="icon" 
             src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
             />
             </a>
 
-            <a href="https://youtu.be/1sezCSgZYDs" target="_blank">
+            <a className="disable" href="" target="_blank">
               <img 
               className="icon"
               src="https://pic.onlinewebfonts.com/svg/img_199595.png"
@@ -192,7 +192,7 @@ function Projects() {
                 src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
                 />
                 </a>
-                <a href="" target="_blank" className="">
+                <a href="" target="_blank" className="disable">
                 <img 
                 className="icon"
                 src="https://pic.onlinewebfonts.com/svg/img_199595.png"
