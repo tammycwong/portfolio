@@ -16,35 +16,7 @@ function Projects() {
       <div className="projects-container">
         <h2 data-aos="fade-left">Projects</h2>
         <div className="horizontal-bar" data-aos="fade-down"></div>
-        {/* <div className="horizontal-bar" data-aos="fade-down"></div>
-        <div className="projects" data-aos="fade-up">
-         <img src="https://i.ibb.co/K28F2Zw/Screen-Shot-2021-07-28-at-11-29-28-AM.png"/>
-         <br/>
-          <div className="overlay"></div>
-            <div className="project-details fadeIn-bottom">
-              <h3 className="">Life in Quarantine</h3>
-              <h4 className="tools">HTML | CSS | JavaScript</h4>
-                <a href="https://github.com/tammycwong/my-website" target="_blank">
-                <img
-                className ="icon"
-                src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
-                />
-                </a>
-                <a href="" target="_blank" className="">
-                <img 
-                className="icon"
-                src="https://pic.onlinewebfonts.com/svg/img_199595.png"
-                />
-                </a>
-                <br/>
-                <p className="project-p">
-                (Flatiron Software Bootcamp Pre-Work) We all handled quarantine during the pandemic either in our own way,
-                or exactly the same- trends fueled by instagram and tik tok. I tried to find myself in those times and 
-                this is the gallery I made to document it. 
-                </p>
-                <a href="https://tammycwong.github.io/my-website/" target="_blank" class="project-site">View Site</a>
-            </div>
-          </div> */}
+
 
         <div className="projects" data-aos="fade-up">
           <img className ="project-image" src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"/>
@@ -175,6 +147,64 @@ function Projects() {
           </div>
         </div>
 
+        <div data-aos="fade-up" className="projects">
+        <img src="https://i.ibb.co/DGxQH9L/Screen-Shot-2021-07-29-at-3-02-52-PM.png"/>
+        <br/>
+        <div className="overlay"></div>
+          <div className ="project-details fadeIn-bottom">
+            <h3>Neopets 90s Reboot</h3>
+            <h4 className="tools">JavaScript</h4>
+            <a href="https://github.com/adamberard24/front-end-with-AdamandTammy" target="_blank">
+            <img 
+            className="icon" 
+            src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+            />
+            </a>
+
+            <a href="https://youtu.be/1sezCSgZYDs" target="_blank">
+              <img 
+              className="icon"
+              src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+              />
+            </a>
+
+            <p className="project-p">
+            All Movies (but only from 2004) dedicates and provides movies released in 2004-
+            the best year for movies! Users are able to browse  movies through categories, 
+            add and delete movies and view movie trailers. 
+            </p>
+            <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
+          </div>
+          </div>
+          
+        <div className="projects" data-aos="fade-up">
+         <img src="https://i.ibb.co/K28F2Zw/Screen-Shot-2021-07-28-at-11-29-28-AM.png"/>
+         <br/>
+          <div className="overlay"></div>
+            <div className="project-details fadeIn-bottom">
+              <h3 className="">Life in Quarantine</h3>
+              <h4 className="tools">HTML | CSS | JavaScript</h4>
+                <a href="https://github.com/tammycwong/my-website" target="_blank">
+                <img
+                className ="icon"
+                src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+                />
+                </a>
+                <a href="" target="_blank" className="">
+                <img 
+                className="icon"
+                src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+                />
+                </a>
+                <br/>
+                <p className="project-p">
+                (Flatiron Software Bootcamp Pre-Work) We all handled quarantine during the pandemic either in our own way,
+                or exactly the same- trends fueled by instagram and tik tok. I tried to find myself in those times and 
+                this is the gallery I made to document it. 
+                </p>
+                <a href="https://tammycwong.github.io/my-website/" target="_blank" class="project-site">View Site</a>
+            </div>
+          </div>
       </div>
     );
 }

@@ -8,7 +8,7 @@ function AboutMe() {
     return (
     <div className="aboutme-container">
       <h2 data-aos="fade-left">About Me</h2>
-       {/* <div className="horizontal-bar" data-aos="fade-down"></div> */}
+       <div className="horizontal-bar" data-aos="fade-down"></div>
         <div className="aboutme-details">
           <p className="aboutme">
             A career changer from hospitality management to tech.<br/>
