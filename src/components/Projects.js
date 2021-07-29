@@ -170,8 +170,8 @@ function Projects() {
 
             <p className="project-p">
             Remember Neopets and dial-up? Well, we do. Neopets 90s Reboot is a revamp of the popular
-            children's game that brings back childhood cartoons and toys. Adopt a pet in our adoption center
-            and power up their with health and happiness points through the retro item shop. Psst! We have tickle-me-elmo, polly pocket and gak.
+            children's interactive website that brings back childhood cartoons and toys. Adopt a pet in our adoption center
+            and power up their health and happiness points through the retro item shop. Psst! We have tickle-me-elmo, polly pocket and gak.
 
              
             </p>
