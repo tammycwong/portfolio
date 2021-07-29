@@ -6,20 +6,23 @@ function AboutMe() {
     return (
     <div>
       <div className="header">
-
-        <h2>I am Tammy Wong and I am a{' '}</h2>
+        <h2 id="h2-header">I am Tammy Wong and I am a{' '}</h2>
         <h3 className="typing-demo">
           <Typical
           loop= {Infinity}
           wrapper="b"
           steps={[
-            'software developer.',
-            1800,
             'full stack engineer.',
             1800,
-            'creative.',
+            'web developer.',
             1800,
-            'hypeman.',
+            'hard worker.',
+            1800,
+            'curious individual.',
+            1800,
+            'leader.',
+            1800,
+            'hot cheetos advocate.',
             1800,
           ]}
           />

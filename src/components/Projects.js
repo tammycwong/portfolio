@@ -15,6 +15,8 @@ function Projects() {
     return (
       <div className="projects-container">
         <h2 data-aos="fade-left">Projects</h2>
+        <div className="horizontal-bar" data-aos="fade-down"></div>
+        {/* <div className="horizontal-bar" data-aos="fade-down"></div>
         <div className="projects" data-aos="fade-up">
          <img src="https://i.ibb.co/K28F2Zw/Screen-Shot-2021-07-28-at-11-29-28-AM.png"/>
          <br/>
@@ -42,7 +44,7 @@ function Projects() {
                 </p>
                 <a href="https://tammycwong.github.io/my-website/" target="_blank" class="project-site">View Site</a>
             </div>
-          </div>
+          </div> */}
 
         <div className="projects" data-aos="fade-up">
           <img className ="project-image" src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"/>

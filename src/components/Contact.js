@@ -3,8 +3,9 @@ import React from 'react';
 function Contact() {
 
     return (
-    <div className="contact-container">
+        <div className="contact-container">
         <h2 data-aos="fade-left">Contact</h2>
+        <div className="horizontal-bar" data-aos="fade-right"></div>
         <h3 className="margin">Have a question or want to work together?</h3>
         <br/>
         <br/>

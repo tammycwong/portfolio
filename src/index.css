@@ -5,13 +5,21 @@ body {
   font-size: 14pt;
   max-width: 90%;
   margin: auto;
+  background-color: black;
+  color: white;
 }
 h2 {
   font-weight: normal;
   letter-spacing: 3px;
   font-size: 38pt;
-  padding: 0;
-  margin: 0;
+  margin: 5px;
+  text-transform: uppercase;
+}
+.horizontal-bar {
+  border-top: 6px solid #e8f05b;
+  width: 200px;
+  margin: 0px auto;
+  padding-bottom: 50px;
 }
 p {
   text-align: left;
@@ -31,9 +39,13 @@ h3 {
   overflow: hidden;
   font-size: 32pt;
   font-weight: normal;
-  color: #927B7B;
+  color: #e8f05b;
   letter-spacing: 2px;
 }
+#h2-header {
+  text-transform: none;
+}
+
 .header {
   height: 100vh;
   display: flex;
@@ -58,32 +70,42 @@ img {
 }
 
 .aboutme-container {
-  /* display: flex; */
-  height: 100vh;
-  border: 2px solid black;
-  display: inline-grid;
+  display: flex;
+  display: grid;
+  /* border: 2px yellow solid; */
 }
-/* .aboutme-details {
-  width: 800px;
-} */
 .aboutme {
   text-align: left;
-  /* width: 800px; */
   padding: 30px;
-  display: flex;
+  float: left;
+  font-size: 14pt;
+  width: 50%;
+  /* border: gray 1px solid; */
   
 }
 .profile-pic {
-  border-radius: 8px;
-  width: 350px;
-  height: auto;
-  opacity: 1;
+  border-radius: 700px;
+  height: 450px;
+  width: auto;
+  opacity: 0;
   padding: 30px;
-  display: inline;
+  grid-column: span 4;
+  /* border: 3px solid white; */
+}
+.profile-pic-container {
+  float: right; 
+}
+.programming-icons {
+  height: 50px;
+  width: auto; 
+  padding-right: 20px;
+}
+.framework-container {
+  height: 100vh;
 }
 .projects-container {
   /* display: flex; */
-  /* height: 100vh; */
+  height: 100vh;
   margin-top: 20px;
   padding-top: 50px;
 }
@@ -114,7 +136,7 @@ img {
 }
 .projects:hover .overlay {
   opacity: 1;
-  background: white;
+  background: #1f1f1f;
 }
 .project-details{
   position: absolute;
@@ -141,7 +163,7 @@ img {
   top: 10%;
 }
 .project-site {
-  border: 3px solid #927B7B;
+  border: 3px solid #e8f05b;
   padding: 10px 30px;
 }
 .project-p {
@@ -149,12 +171,12 @@ img {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   letter-spacing: 1px;
 }
 .project-site:hover{
-  background: #927B7B;
-  color: white;
+  background: #e8f05b;
+  color:#000000;
 }
 /* a:hover {
   background: #927B7B;
@@ -170,7 +192,7 @@ a {
 }
 .tools {
   font-weight: normal;
-  color: #927B7B;
+  color: #e8f05b;
   padding: 0px auto;
   margin: 0px auto;
 }
@@ -195,9 +217,9 @@ textarea {
   height: 50px;
   width: 100px;
   text-transform: uppercase;
-  border-color: white;
-  color: white;
-  background-color: #927B7B;
+  border-color: #000000;
+  color: #000000;
+  background-color: #e8f05b;
 }
 .margin {
   margin: 0px auto;
