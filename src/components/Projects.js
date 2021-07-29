@@ -46,7 +46,7 @@ function Projects() {
               RSVP to the same events they are attending, 
               create and host your own, or browse and filter through category via the event database!
               </p>
-              <a href="" class="project-site" target="_blank">View Site</a>
+              <a href="" class="project-site disable" target="_blank">View Site</a>
             </div>
           </div>
 
@@ -153,7 +153,7 @@ function Projects() {
         <div className="overlay"></div>
           <div className ="project-details fadeIn-bottom">
             <h3>Neopets 90s Reboot</h3>
-            <h4 className="tools">JavaScript</h4>
+            <h4 className="tools">React | Ruby on Rails</h4>
             <a href="https://github.com/adamberard24/front-end-with-AdamandTammy" target="_blank">
             <img 
             className="icon" 
@@ -169,14 +169,16 @@ function Projects() {
             </a>
 
             <p className="project-p">
-            All Movies (but only from 2004) dedicates and provides movies released in 2004-
-            the best year for movies! Users are able to browse  movies through categories, 
-            add and delete movies and view movie trailers. 
+            Remember Neopets and dial-up? Well, we do. Neopets 90s Reboot is a revamp of the popular
+            children's game that brings back childhood cartoons and toys. Adopt a pet in our adoption center
+            and power up their with health and happiness points through the retro item shop. Psst! We have tickle-me-elmo, polly pocket and gak.
+
+             
             </p>
-            <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
+            <a href="https://moviesfrom2004.netlify.app/" className="project-site disable" target="_blank">View Site</a>
           </div>
           </div>
-          
+
         <div className="projects" data-aos="fade-up">
          <img src="https://i.ibb.co/K28F2Zw/Screen-Shot-2021-07-28-at-11-29-28-AM.png"/>
          <br/>

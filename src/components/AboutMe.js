@@ -26,18 +26,19 @@ function AboutMe() {
            </p>
 
            <div className="profile-pic-container">
-            <img className="profile-pic" data-aos="fade-up" src="https://i.ibb.co/FH2FfCS/Screen-Shot-2021-07-29-at-2-39-46-PM.png"/>
+            <img className="profile-pic" src="https://i.ibb.co/FH2FfCS/Screen-Shot-2021-07-29-at-2-39-46-PM.png"/>
            </div>
 
-           <div className="framework">
-            <h3>Technologies and Programming Tools</h3>
-            <h3 className="inline">Languages:</h3>
+           <div id="framework">
+            <h3 className="inline">Programming languages:</h3>
+            <div data-aos="fade-left">
             <img className="programming-icons" src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png"/>
             <img className="programming-icons" src="https://www.rapiddg.com/sites/default/files/imce-files/react.png"/>
             <img className="programming-icons" src="https://dctacademy.com/wp-content/uploads/2015/06/ruby-logo.png"/>
             <img className="programming-icons" src="https://avatars.githubusercontent.com/u/4223"/>
-            <br/>
+            </div>
             <h3>Tools:</h3>
+            <div data-aos="fade-right">
             <img className="programming-icons" src="https://www.postgresql.org/media/img/about/press/elephant.png"  alt="PostgreSQL" title="PostgreSQL"/>
             <img className="programming-icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png" alt="SQLite" title="SQLite"/>
             <img className="programming-icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png" alt="Figma" title="Figma"/>
@@ -46,6 +47,8 @@ function AboutMe() {
             <img className="programming-icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/1200px-Adobe_Creative_Cloud_rainbow_icon.svg.png"  alt="Adobe Creative Cloud" title="Adobe Creative Cloud"/>
             <img className="programming-icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png"  alt="Git" title="Git"/>
             </div>
+            
+        </div>
 
       </div>
      </div>

@@ -24,6 +24,8 @@ function AboutMe() {
             1800,
             'hot cheetos advocate.',
             1800,
+            'plant mom.',
+            1800,
           ]}
           />
         </h3>
