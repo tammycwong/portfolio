@@ -59,7 +59,7 @@ h4 {
 }
 img {
   width: 450px;
-  height: 300px;;
+  height: 320px;;
   transition: .7s ease;
   backface-visibility: hidden;
   opacity: 0.7;
@@ -112,8 +112,8 @@ img {
   display: inline-grid;
   width: 450px;
   height: 300px;
-  margin: 5px;
-  box-shadow: 2px 5px 8px #9c9c9c;
+  margin: 10px;
+  /* box-shadow: 2px 5px 8px #9c9c9c; */
   position: relative;
   overflow: hidden;
   
@@ -134,7 +134,7 @@ img {
   position: absolute;
   text-align: center;
   width: 350px;
-  height: 300px;
+  height: 270px;
   left: 50%;
   opacity: 0;
   transform: translate(-50%, -50%);
@@ -145,10 +145,6 @@ img {
   top: 50%;
   left: 50%;
 }
-/* .view-button {
-  position: absolute;
-  bottom: 0;
-} */
 .fadeIn-bottom {
   top: 10%;
 }
@@ -175,12 +171,12 @@ img {
   background: #e8f05b;
   color:#000000;
 }
-/* .overlay {
+.overlay {
   top: 0;
   left: 0;
   width: 450px;
-  height: 350px;
-} */
+  height: 300px;
+}
 .tools {
   font-weight: normal;
   color: #e8f05b;
@@ -197,6 +193,8 @@ input {
   display: inline-block;
   width: 50%;
   line-height: 3em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12pt;
 }
 input[type=text]:focus {
   outline: 4px solid #e8f05b;
@@ -207,6 +205,8 @@ input[type=email]:focus {
 textarea {
   width: 50%;
   line-height: 6em;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12pt;
 }
 textarea:focus {
   outline: 4px solid #e8f05b;
@@ -255,5 +255,11 @@ a:hover {
 }
 .navbar {
   text-align: right;
-  padding-top: 10px;
+  padding-top: 15px;
+}
+.resume {
+  border: yellow solid 2px;
+  margin: 10px;
+  padding: 7px;
+  right: 0;
 }
