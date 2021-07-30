@@ -6,6 +6,8 @@ import "aos/dist/aos.css";
 function AboutMe() {
 
     return (
+    <section id="about-section">
+      <div className="container">
     <div className="aboutme-container">
       <h2 data-aos="fade-left">About Me</h2>
        <div className="horizontal-bar" data-aos="fade-down"></div>
@@ -16,7 +18,7 @@ function AboutMe() {
             I have a passion for creating fun yet beneficial applications-<br/>
             it is exhilarating being able to build inspiring and engaging products.
             <br/>
-      {/* One of my strengths is frontend engineering as well as conceptual thinking. <br/> */}
+
             <br/>
              I first started coding when I was 15, personalizing my layouts for my blog platforms- Xanga and LiveJournal. <br/>
              I loved changing themes to my site through custom banners, mp3s and dynamic styling with JavaScript and CSS. <br/>
@@ -56,7 +58,8 @@ function AboutMe() {
 
       </div>
      </div>
-    
+     </div>
+    </section>
     )
 }
 

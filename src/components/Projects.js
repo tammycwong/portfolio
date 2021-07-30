@@ -13,6 +13,7 @@ function Projects() {
   }, []);
 
     return (
+      <section id="projects-section">
       <div className="projects-container">
         <h2 data-aos="fade-left">Projects</h2>
         <div className="horizontal-bar" data-aos="fade-down"></div>
@@ -43,8 +44,6 @@ function Projects() {
               <p className="project-p">Instagram but with a calendar. 
               Get social with PalCal- a network for friends to snoop on each other's personal, 
               yet mildly public calendar. 
-              RSVP to the same events they are attending, 
-              create and host your own, or browse and filter through category via the event database!
               </p>
               <div className="view-button">
               <a href="" class="project-site disable" target="_blank">View Site</a>
@@ -78,10 +77,8 @@ function Projects() {
               <br/>
     
               <p className="project-p">
-              It’s tough finding a restroom in big cities like New York.
-              Loo Review is your go-to app to locate available restrooms for when 
-              you desperately need one. With features like filter by borough and reviews from other users,
-              let Loo Review be part of your next trip to the Big Apple!
+              Loo Review is your go-to app for locating available restrooms in New York City when 
+              you desperately need one.
               </p>
               <div className="view-button">
               <a href="https://loo-review.netlify.app/" target="_blank" class="project-site" target="_blank">View Site</a>
@@ -115,7 +112,7 @@ function Projects() {
           Simple Pokemon-themed memory game. 
           <br/>
           <br/>
-          Match Gengar, Snorlax, Lickitung, Grimer, Omanyte and Cubone to it's corresponding pair to catch the Pokemon!
+          Match Pokemon to it's corresponding pair to catch them!
         </p>
         <div className="view-button">
         <a href="https://pkmn-memory-game.netlify.app/" class="project-site" target="_blank">View Site</a>
@@ -146,8 +143,7 @@ function Projects() {
 
             <p className="project-p">
             All Movies (but only from 2004) dedicates and provides movies released in 2004-
-            the best year for movies! Users are able to browse movies through categories, 
-            add and delete movies and view movie trailers. 
+            the best year for movies!
             </p>
             <div className="view-button">
             <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
@@ -177,9 +173,8 @@ function Projects() {
             </a>
 
             <p className="project-p">
-            Remember Neopets and dial-up? Well, we do. Neopets 90s Reboot is a revamp of the popular
-           interactive website that brings back childhood cartoons and toys. Adopt a pet in our adoption center
-            and power up their health and happiness points through the retro item shop.
+            Remember Neopets and dial-up? This is a revamp of the popular
+            interactive website- bringing back nostalgia of childhood cartoons and toys.
              
             </p>
             <div className="view-button">
@@ -209,9 +204,10 @@ function Projects() {
                 </a>
                 <br/>
                 <p className="project-p">
-                (Flatiron Software Bootcamp Pre-Work) We all handled quarantine during the pandemic either in our own way,
+               Tried to find myself in quarantine. This is a gallery that documents how I handled the pandemic.
+                {/* (Flatiron Software Bootcamp Pre-Work) We all handled quarantine during the pandemic either in our own way,
                 or exactly the same- trends fueled by instagram and tik tok. I tried to find myself in those times and 
-                this is the gallery I made to document it. 
+                this is the gallery I made to document it.  */}
                 </p>
                 <div className="view-button">
                 <a href="https://tammycwong.github.io/my-website/" target="_blank" class="project-site">View Site</a>
@@ -219,6 +215,7 @@ function Projects() {
             </div>
           </div>
       </div>
+      </section>
     );
 }
 

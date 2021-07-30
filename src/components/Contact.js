@@ -3,6 +3,7 @@ import React from 'react';
 function Contact() {
 
     return (
+        <section id="contact-section">
         <div className="contact-container">
         <h2 data-aos="fade-left">Contact</h2>
         <div className="horizontal-bar" data-aos="fade-down"></div>
@@ -42,6 +43,7 @@ function Contact() {
     </a>
         </div>
         </div>
+        </section>
 
         
 

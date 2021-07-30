@@ -1,17 +1,17 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link, animateScroll as scroll} from 'react-scroll';
 
 function NavBar() {
 
     return (
     <div className="navbar">
-        <Link to="/" smooth={true} duration={1000}>
+        <Link to="about-section" smooth={true} duration={1000}>
             About Me
         </Link>
-        <Link to="Projects" >
+        <Link to="projects-section" smooth={true} duration={1000}>
             Projects
         </Link>
-        <Link to="Contact" >
+        <Link to="contact-section" smooth={true} duration={1000}>
             Contact
         </Link>
 
