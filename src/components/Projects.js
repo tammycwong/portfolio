@@ -4,8 +4,8 @@ import "animate.css/animate.min.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-function Projects() {
-  const [isOpen, setOpen] = useState(false)
+function Projects({isOpen, setIsOpen, setActiveVideo, activeVideo}) {
+  // const [isOpen, setOpen] = useState(false)
 
 
   useEffect(() => {
@@ -26,7 +26,7 @@ function Projects() {
             <div class ="project-details fadeIn-bottom">
               <h3 className="project-title">palCal</h3>
               <h4 className="tools">React | Rails </h4>
-              <a href="https://github.com/tammycwong/frontend_events">
+              <a href="https://github.com/tammycwong/frontend_events" target="_blank">
               <img 
                 className="icon" 
                 src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
@@ -37,13 +37,14 @@ function Projects() {
               <a href="https://youtu.be/4YpLQZZIsIM">
               <img 
                 className="icon"
-                src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+                src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
               />
               </a>
           
-              <p className="project-p">Instagram but with a calendar. 
-              Get social with PalCal- a network for friends to snoop on each other's personal, 
-              yet mildly public calendar. 
+              <p className="project-p">
+                Instagram but with a calendar. 
+                Get social with PalCal- a network for friends to snoop on each other's personal, 
+                yet mildly public calendar. 
               </p>
               <div className="view-button">
               <a href="" class="project-site disable" target="_blank">View Site</a>
@@ -68,10 +69,10 @@ function Projects() {
               </a>
             
               {/* video modal */}
-              <a href="https://youtu.be/4YpLQZZIsIM" target="_blank">
+              <a href="https://youtu.be/V3wfNaC8CMA" target="_blank">
               <img 
                 className="icon"
-                src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+                src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
               />
               </a>
               <br/>
@@ -100,10 +101,10 @@ function Projects() {
             />
             </a>
 
-            <a href="" target="_blank">
+            <a href="" target="_blank" className="disable">
               <img 
               className="icon"
-              src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+              src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
               />
             </a>
         <br/>
@@ -127,27 +128,31 @@ function Projects() {
           <div className ="project-details fadeIn-bottom">
             <h3>All Movies (but only from 2004)</h3>
             <h4 className="tools">JavaScript</h4>
-            <a href="https://github.com/adamberard24/front-end-with-AdamandTammy" target="_blank">
-            <img 
-            className="icon" 
-            src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
-            />
-            </a>
 
-            <a href="https://youtu.be/1sezCSgZYDs" target="_blank">
+
+
+              <a href="https://github.com/adamberard24/front-end-with-AdamandTammy" target="_blank">
+                <img 
+                  className="icon" 
+                  src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+                />
+              </a>
+
+              <a onClick={() =>{setIsOpen(true); setActiveVideo("1sezCSgZYDs")}} target="_blank">
               <img 
-              className="icon"
-              src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+                className="icon"
+                src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
               />
-            </a>
+             </a>
 
-            <p className="project-p">
-            All Movies (but only from 2004) dedicates and provides movies released in 2004-
-            the best year for movies!
-            </p>
-            <div className="view-button">
-            <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
-            </div>
+             <p className="project-p">
+              All Movies (but only from 2004) dedicates and provides movies released in 2004-
+              the best year for movies!
+             </p>
+              <div className="view-button">
+              <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
+              </div>
+                {/* <span onClick={() =>{setIsOpen(true); setActiveVideo("1sezCSgZYDs")}}>View Demo</span> */}
           </div>
         </div>
 
@@ -168,7 +173,7 @@ function Projects() {
             <a className="disable" href="" target="_blank">
               <img 
               className="icon"
-              src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+              src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
               />
             </a>
 
@@ -199,7 +204,7 @@ function Projects() {
                 <a href="" target="_blank" className="disable">
                 <img 
                 className="icon"
-                src="https://pic.onlinewebfonts.com/svg/img_199595.png"
+                src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
                 />
                 </a>
                 <br/>
