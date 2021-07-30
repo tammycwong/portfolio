@@ -46,7 +46,9 @@ function Projects() {
               RSVP to the same events they are attending, 
               create and host your own, or browse and filter through category via the event database!
               </p>
+              <div className="view-button">
               <a href="" class="project-site disable" target="_blank">View Site</a>
+              </div>
             </div>
           </div>
 
@@ -81,7 +83,9 @@ function Projects() {
               you desperately need one. With features like filter by borough and reviews from other users,
               let Loo Review be part of your next trip to the Big Apple!
               </p>
+              <div className="view-button">
               <a href="https://loo-review.netlify.app/" target="_blank" class="project-site" target="_blank">View Site</a>
+              </div>
             </div>
           </div>
 
@@ -113,7 +117,9 @@ function Projects() {
           <br/>
           Match Gengar, Snorlax, Lickitung, Grimer, Omanyte and Cubone to it's corresponding pair to catch the Pokemon!
         </p>
+        <div className="view-button">
         <a href="https://pkmn-memory-game.netlify.app/" class="project-site" target="_blank">View Site</a>
+        </div>
         </div>
         </div>
 
@@ -143,7 +149,9 @@ function Projects() {
             the best year for movies! Users are able to browse movies through categories, 
             add and delete movies and view movie trailers. 
             </p>
+            <div className="view-button">
             <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
+            </div>
           </div>
         </div>
 
@@ -174,7 +182,9 @@ function Projects() {
             and power up their health and happiness points through the retro item shop.
              
             </p>
+            <div className="view-button">
             <a href="https://moviesfrom2004.netlify.app/" className="project-site disable" target="_blank">View Site</a>
+            </div>
           </div>
           </div>
 
@@ -203,7 +213,9 @@ function Projects() {
                 or exactly the same- trends fueled by instagram and tik tok. I tried to find myself in those times and 
                 this is the gallery I made to document it. 
                 </p>
+                <div className="view-button">
                 <a href="https://tammycwong.github.io/my-website/" target="_blank" class="project-site">View Site</a>
+                </div>
             </div>
           </div>
       </div>
