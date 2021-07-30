@@ -1,11 +1,11 @@
 import React from 'react';
-import { Link, animateScroll as scroll } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 function NavBar() {
 
     return (
     <div className="navbar">
-        <Link to="/" smooth={true} duration={500}>
+        <Link to="/" smooth={true} duration={1000}>
             About Me
         </Link>
         <Link to="Projects" >

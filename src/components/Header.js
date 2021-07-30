@@ -16,15 +16,11 @@ function AboutMe() {
             1800,
             'web developer.',
             1800,
-            'hard worker.',
-            1800,
-            'curious individual.',
-            1800,
-            'leader.',
-            1800,
             'hot cheetos advocate.',
             1800,
             'plant mom.',
+            1800,
+            'land mammal.',
             1800,
           ]}
           />

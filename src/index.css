@@ -11,7 +11,7 @@ body {
 h2 {
   font-weight: normal;
   letter-spacing: 3px;
-  font-size: 38pt;
+  font-size: 32pt;
   margin: 5px;
   text-transform: uppercase;
 }
@@ -23,17 +23,18 @@ h2 {
 }
 p {
   text-align: left;
-  line-height: 1.6;
+  /* line-height: 1.6; */
   letter-spacing: 1px;
-  font-size: 10pt;
+  font-size: 12pt;
   /* padding: 0px 70px 0px 70px; */
 }
 h3 {
   font-weight: normal;
   letter-spacing: 2px;
-  /* margin: 0px auto; */
 }
-
+h4 {
+  font-size: 10pt;
+}
 .typing-demo {
   white-space: nowrap;
   overflow: hidden;
@@ -54,8 +55,8 @@ h3 {
   white-space: pre-wrap;
 }
 img {
-  width: 550px;
-  height: 370px;;
+  width: 450px;
+  height: 300px;;
   /* border-bottom: #F3F3F3 1px solid; */
   transition: .7s ease;
   backface-visibility: hidden;
@@ -64,36 +65,35 @@ img {
 
 }
 .icon {
-  width: 50px;
+  width: 30px;
   display: inline;
-  height: 50px;
+  height: 30px;
 }
 
 .aboutme-container {
   display: flex;
   display: grid;
+  /* border: white solid 2px; */
+  
   /* border: 2px yellow solid; */
 }
 .aboutme {
   text-align: left;
   padding: 30px;
   float: left;
-  font-size: 14pt;
+  font-size: 12pt;
   width: 50%;
-  border: gray 1px solid;
+  /* border: gray 1px solid; */
   
 }
 .profile-pic {
   border-radius: 700px;
-  height: 450px;
+  height: 300px;
   width: auto;
   padding: 30px;
   border: 3px solid #e8f05b;
   float: right;
 }
-/* .profile-pic-container {
-  float: right; 
-} */
 .programming-icons {
   height: 50px;
   width: auto; 
@@ -108,19 +108,15 @@ img {
   text-align: left;
 }
 .projects-container {
-  /* display: flex; */
-  /* height: 100vh; */
   margin-top: 20px;
   padding-top: 50px;
-  max-width: 100%;
 }
 .projects {
   display: inline-grid;
-  border:#F3F3F3 1px solid;
-  width: 550px;
-  height: 370px;
-  margin: 20px;
-  box-shadow: 2px 6px 8px #ccc;
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  box-shadow: 2px 5px 8px #9c9c9c;
   position: relative;
   overflow: hidden;
   
@@ -130,13 +126,7 @@ img {
   position: absolute;
   height: 100%;
   width: 100%;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
   opacity: 0;
-  -webkit-transition: all 1.6s ease-in-out 0s;
-  -moz-transition: all 1.6s ease-in-out 0s;
   transition: all 0.6s ease-in-out 0s;
 }
 .projects:hover .overlay {
@@ -146,17 +136,12 @@ img {
 .project-details{
   position: absolute;
   text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 50%;
+  padding: 0px auto;
+  width: 400px;
+  height: 300px;
   left: 50%;
   opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 .projects:hover .project-details {
@@ -168,11 +153,13 @@ img {
   top: 10%;
 }
 .project-site {
-  border: 3px solid #e8f05b;
+  border: 2px solid #e8f05b;
   padding: 10px 30px;
+  margin-top: 10px;
 }
 .project-p {
-  padding: 0px 30px 15px 30px;
+  padding: 0px auto;
+  margin: 0px auto;
 }
 .disable {
   opacity: 0.3;
@@ -182,22 +169,18 @@ a {
   text-decoration: none;
   color: #ffffff;
   letter-spacing: 1px;
+  font-size: 12pt;
+  padding: 5px;
 }
 .project-site:hover{
   background: #e8f05b;
   color:#000000;
 }
-/* a:hover {
-  background: #927B7B;
-  color: white;
-} */
 .overlay {
-  position: absolute;
-  position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 450px;
+  height: 350px;
 }
 .tools {
   font-weight: normal;

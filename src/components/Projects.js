@@ -23,7 +23,7 @@ function Projects() {
           <br/>
           <div class="overlay"></div>
             <div class ="project-details fadeIn-bottom">
-              <h3>palCal</h3>
+              <h3 className="project-title">palCal</h3>
               <h4 className="tools">React | Rails </h4>
               <a href="https://github.com/tammycwong/frontend_events">
               <img 
@@ -140,7 +140,7 @@ function Projects() {
 
             <p className="project-p">
             All Movies (but only from 2004) dedicates and provides movies released in 2004-
-            the best year for movies! Users are able to browse  movies through categories, 
+            the best year for movies! Users are able to browse movies through categories, 
             add and delete movies and view movie trailers. 
             </p>
             <a href="https://moviesfrom2004.netlify.app/" class="project-site" target="_blank">View Site</a>
@@ -170,9 +170,8 @@ function Projects() {
 
             <p className="project-p">
             Remember Neopets and dial-up? Well, we do. Neopets 90s Reboot is a revamp of the popular
-            children's interactive website that brings back childhood cartoons and toys. Adopt a pet in our adoption center
-            and power up their health and happiness points through the retro item shop. Psst! We have tickle-me-elmo, polly pocket and gak.
-
+           interactive website that brings back childhood cartoons and toys. Adopt a pet in our adoption center
+            and power up their health and happiness points through the retro item shop.
              
             </p>
             <a href="https://moviesfrom2004.netlify.app/" className="project-site disable" target="_blank">View Site</a>

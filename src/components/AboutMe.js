@@ -13,8 +13,8 @@ function AboutMe() {
           <p className="aboutme">
             A career changer from hospitality management to tech.<br/>
             Based in Brooklyn, New York.<br/>
-            I have a serious passion for creating fun yet beneficial applications-<br/>
-            it is the most exhilarating experience building inspiring and engaging products.
+            I have a passion for creating fun yet beneficial applications-<br/>
+            it is exhilarating being able to build inspiring and engaging products.
             <br/>
       {/* One of my strengths is frontend engineering as well as conceptual thinking. <br/> */}
             <br/>
@@ -23,6 +23,10 @@ function AboutMe() {
              Each layout taylored to my current mood as an angsty teen.<br/>
             <br/>
              My background in cognitive and behaviorial psychology helps me understand the human mind and how it works with user experience.<br/>
+             Managing a staff of over 80 service professionals, I have a keen understanding of how to create a
+             positive and engaging work environment. <br/>
+             <br/>
+             PS: I lived a life without Google.
            </p>
 
            <div className="profile-pic-container">
