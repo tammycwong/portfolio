@@ -11,14 +11,14 @@ body {
 }
 h2 {
   font-weight: normal;
-  letter-spacing: 3px;
-  font-size: 120pt;
+  letter-spacing: 4px;
+  font-size: 48pt;
   margin: 5px;
   text-transform: uppercase;
 }
 .horizontal-bar {
   border-top: 6px solid #e8f05b;
-  width: 200px;
+  width: 100px;
   margin: 0px auto;
   padding-bottom: 50px;
 }
@@ -27,19 +27,19 @@ p {
   line-height: 1.4;
   letter-spacing: 1px;
   font-size: 12pt;
+  padding: 10px;
   /* padding: 0px 70px 0px 70px; */
 }
 h3 {
   font-weight: normal;
   letter-spacing: 2px;
   font-size: 16pt;
-  margin: 0px auto;
+  margin: 5px;
   /* margin: 7px auto; */
 }
 h4 {
   font-size: 12pt;
-  padding: 0px auto;
-  margin: 0px auto;
+  padding: 5px;
 }
 .typing-demo {
   white-space: nowrap;
@@ -69,10 +69,14 @@ img {
 
 }
 .view-button {
-  text-align: left;
+  text-align: right;
   bottom: 0;
   position: absolute;
-  left: 0;
+  right: 0;
+  margin-bottom: 13px;
+  padding: 7px;
+  border: 2px solid white;
+  text-transform: uppercase;
 }
 .icon {
   width: 50px;
@@ -162,6 +166,7 @@ img {
   color: #ffffff;
   letter-spacing: 1px;
   font-size: 12pt;
+  text-align: right;
 }
 .project-p {
   padding: 0px auto;
@@ -172,8 +177,7 @@ img {
   pointer-events: none;
 }
 .project-site:hover{
-  background: #e8f05b;
-  color:#000000;
+  color:#e8f05b;
 }
 .overlay {
   top: 0;
@@ -199,8 +203,10 @@ input {
   line-height: 3em;
   font-family: 'Raleway', sans-serif;
   font-size: 12pt;
-  background: #1f1f1f;
+  color: #ffffff;
+  background: #2f364a;
   border: none;
+  
 }
 input[type=text]:focus {
   outline: 1x solid #e8f05b;
@@ -213,8 +219,9 @@ textarea {
   line-height: 6em;
   font-family: 'Raleway', sans-serif;
   font-size: 12pt;
-  background: #1f1f1f;
+  background: #2f364a;
   border: none;
+  color: #ffffff;
 }
 textarea:focus {
   outline: 1px solid #e8f05b;
@@ -266,6 +273,7 @@ a:hover {
 .resume {
   border: #e8f05b solid 2px;
   padding: 10px;
+  text-decoration: none;
   /* right: 0; */
 }
 .modal-background {
@@ -289,6 +297,13 @@ a:hover {
 .contact-h4 {
   margin: 0px auto;
   padding: 0px auto;
+  padding-top: 10px;
   color: #e8f05b;
   letter-spacing: 2px;
+}
+.icon-align {
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  text-align: left;
 }

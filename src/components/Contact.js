@@ -26,7 +26,7 @@ function Contact() {
         </div>
 
         <div id="footer">
-            <h3>Is your name Wi-fi?</h3>
+            <h3>Is your name Wifi?</h3>
             <h4 className="contact-h4">Because I'm really feeling your connection:</h4>
             <a href="https://linkedin.com/in/tammycwong" target="_blank">
                 <img className="contact-icon" src="https://image.flaticon.com/icons/png/512/174/174857.png" height= "36px" alt="linked in" title="LinkedIn"/>

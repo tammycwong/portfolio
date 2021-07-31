@@ -14,7 +14,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
         <h2 data-aos="fade-left">Projects</h2>
         <div className="horizontal-bar" data-aos="fade-left"></div>
 
-        <div className="projects" data-aos="fade-left">
+        <div className="projects" data-aos="">
           <img
             className="project-image"
             src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"
@@ -24,6 +24,13 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
           <div class="project-details fadeIn-bottom">
             <h3 className="project-title">palCal</h3>
             <h4 className="tools">React | Rails | JWT | Custom CSS</h4>
+
+            <p className="project-p">
+              Instagram but with a calendar; a network
+              for friends to snoop on each other's personal, yet mildly private
+              event calendar.
+            </p>
+            <div className="icon-align">
             <a
               href="https://github.com/tammycwong/frontend_events"
               target="_blank"
@@ -46,12 +53,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
               />
             </a>
-
-            <p className="project-p">
-              Instagram but with a calendar; a network
-              for friends to snoop on each other's personal, yet mildly private
-              event calendar.
-            </p>
+            </div>
             <div className="view-button">
               <a href="" class="project-site disable" target="_blank">
                 View Site
@@ -60,7 +62,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
           </div>
         </div>
 
-        <div className="projects" data-aos="fade-left">
+        <div className="projects" data-aos="">
           <img
             class="project-image"
             src="https://i.ibb.co/qmntqK2/Screen-Shot-2021-07-26-at-4-28-38-PM.png"
@@ -71,28 +73,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
             <h3 className="">Loo Review: New York City</h3>
             <h4 className="tools">React | Custom CSS</h4>
 
-            {/* <a
-              href="https://github.com/pjhg14/Phase-2-rr-location-frontend"
-              target="_blank"
-            >
-              <img
-                className="icon"
-                src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
-              />
-            </a>
-
-            <a
-              onClick={() => {
-                setIsOpen(true);
-                setActiveVideo("V3wfNaC8CMA");
-              }}
-              className="demo"
-            >
-              <img
-                className="icon"
-                src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
-              />
-            </a> */}
             <br />
 
             <p className="project-p">
@@ -100,7 +80,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
               New York City when you desperately need one.
             </p>
 
-            <div className="view-button">
+            <div className="icon-align">
               <a
                 href="https://github.com/pjhg14/Phase-2-rr-location-frontend"
                 target="_blank"
@@ -118,11 +98,14 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 }}
                 className="demo"
               >
+                
                 <img
                   className="icon"
                   src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
                 />
               </a>
+              </div>
+              <div class="view-button">
               <a
                 href="https://loo-review.netlify.app/"
                 target="_blank"
@@ -135,16 +118,32 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
           </div>
         </div>
 
-        <div className="projects" data-aos="fade-left">
+        <div className="projects" data-aos="">
           {/* <img src="https://i.ibb.co/DKMgB2Z/Screen-Shot-2021-07-26-at-4-34-11-PM.png"/> */}
           <img
             className="project-image"
-            src="https://i.ibb.co/tCbXD78/Screen-Shot-2021-07-26-at-4-32-41-PM.png"
+            src="https://i.ibb.co/d4PYrZb/Screen-Shot-2021-07-31-at-3-41-20-PM.png"
           />
           <div className="overlay"></div>
           <div className="project-details fadeIn-bottom">
             <h3>Pokemon Memory Game</h3>
             <h4 className="tools">JavaScript | Custom CSS</h4>
+
+            <p className="project-p">
+              Simple Pokemon-themed memory game.
+              <br />
+              Match Pokemon to it's corresponding pair to catch them!
+            </p>
+            <div className="view-button">
+              <a
+                href="https://pkmn-memory-game.netlify.app/"
+                class="project-site"
+                target="_blank"
+              >
+                View Site
+              </a>
+            </div>
+            <div className="icon-align">
             <a
               href="https://github.com/tammycwong/pokemon-memory-game"
               target="_blank"
@@ -161,26 +160,12 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
               />
             </a>
-            <br />
-
-            <p className="project-p">
-              Simple Pokemon-themed memory game.
-              <br />
-              Match Pokemon to it's corresponding pair to catch them!
-            </p>
-            <div className="view-button">
-              <a
-                href="https://pkmn-memory-game.netlify.app/"
-                class="project-site"
-                target="_blank"
-              >
-                View Site
-              </a>
             </div>
+           
           </div>
         </div>
 
-        <div data-aos="fade-left" className="projects">
+        <div data-aos="" className="projects">
           <img src="https://i.ibb.co/XZ73RZK/Screen-Shot-2021-07-26-at-8-54-37-PM.png" />
           <br />
           <div className="overlay"></div>
@@ -188,6 +173,14 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
             <h3>All Movies (but only from 2004)</h3>
             <h4 className="tools">JavaScript | Custom CSS</h4>
 
+            
+
+            <p className="project-p">
+              All Movies (but only from 2004) dedicates and provides movies
+              released in 2004- the best year for movies!
+            </p>
+
+            <div className="icon-align">
             <a
               href="https://github.com/adamberard24/front-end-with-AdamandTammy"
               target="_blank"
@@ -211,10 +204,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
               />
             </a>
 
-            <p className="project-p">
-              All Movies (but only from 2004) dedicates and provides movies
-              released in 2004- the best year for movies!
-            </p>
+            </div>
             <div className="view-button">
               <a
                 href="https://moviesfrom2004.netlify.app/"
