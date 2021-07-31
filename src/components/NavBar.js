@@ -14,7 +14,7 @@ function NavBar() {
         <Link to="contact-section" smooth={true} duration={1000}>
             Contact
         </Link>
-       <Link to="resume" className="resume">
+       <Link to="" className="resume">
            Resume
        </Link>
 
