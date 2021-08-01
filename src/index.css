@@ -327,65 +327,104 @@ a:hover {
   text-align: left;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1200px) {
   html {
-    width: 600px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 0px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 	body {
     min-width: 100vw;
     justify-content: center;
   }
-  .nav-bar {
-    padding-right: 5px;
-    font-size: 1rem;
+  .navbar > a{
+    padding-right: 10px;
+    margin: 10px;
+    font-size: 0.7rem;
   }
   #h2-header {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     word-wrap: break-word;
-    letter-spacing: 0px;
+    letter-spacing: -0.5px;
   }
   h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .typing-demo {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     word-wrap: break-word;
     display: inline-block;
+    letter-spacing: -0.5px;
   }
   h3 {
-    font-size: 1.2rem;
+    font-size: 10pt;
+  }
+  h4 {
+    font-size: 8pt;
   }
   .aboutme-container {
+    max-width: 500px;
     display: flex;
-    flex-direction: column;
   }
   .aboutme-details {
     max-width: 600px;
   }
   p{
-    font-size: 10pt;
+    font-size: 0.5rem;
   }
   .profile-pic {
     max-width: 300px;;
-    position: relative;
     height: auto;
+    flex-wrap: wrap;
   }
   .projects-container {
     padding: 0px auto;
     margin: 0px auto;
+    position: relative;
   }
   .projects {
-    width: 150px;
-    height: auto;
+    width: 300px;
+    height: 220px;
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: none;
+
   };
-  .overlay {
-    width: 150px;
-    height: 75px;
+ .projects .overlay {
+    width: 300px;
+    height: 220px;
   }
-  img {
-    width: 150px;
-    height: auto;
+  .project-image {
+    width: 300px;
+    height: 220px;
   }
+  .project-details {
+    width: 200px;
+    height: 175px;
+  }
+  .project-p {
+    font-size: 8pt;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .contact-icon {
+    width: 30px;
+    height: 30px;
+  }
+  #submit-button {
+    font-size: 0.5rem;
+    }
+  .input {
+    font-size: 0.5rem;
+  }
+.programming-icons {
+  height: 30px;
+  width: 30px;
+}
 }
