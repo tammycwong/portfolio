@@ -7,7 +7,7 @@ body {
   background-color: #182036;
   /* background-color: #050d26; */
   color: white;
-  /* max-width: 100%; */
+  max-width: 100%;
 }
 h2 {
   font-weight: normal;
@@ -312,3 +312,12 @@ a:hover {
   left: 0;
   text-align: left;
 }
+
+@media (max-width: 400px) {
+  body {
+    display: flex;
+  }
+  .header {
+    display: flex;
+  }
+  }
