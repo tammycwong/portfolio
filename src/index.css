@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 14pt;
   margin: 0px auto;
   background-color: #182036;
@@ -65,10 +65,9 @@ h4 {
 .project-image {
   width: 450px;
   height: 320px;
-  transition: .7s ease;
+  transition: 0.7s ease;
   backface-visibility: hidden;
   /* opacity: 0.7; */
-
 }
 .view-button {
   text-align: right;
@@ -92,7 +91,6 @@ h4 {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-
 }
 .aboutme {
   max-width: 500px;
@@ -114,7 +112,7 @@ h4 {
 }
 .programming-icons {
   height: 50px;
-  width: auto; 
+  width: auto;
   padding-right: 20px;
 }
 .framework-container {
@@ -132,7 +130,6 @@ h4 {
   /* overflow: scroll; */
   /* padding: 0px auto;
   margin: 0px auto; */
-
 }
 .projects {
   display: inline-grid;
@@ -142,21 +139,20 @@ h4 {
   box-shadow: 2px 5px 8px #808080;
   position: relative;
   opacity: 0.8;
-  
 }
 .projects .overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
   opacity: 0;
   /* transition: all 0.6s ease-in-out 0s; */
 }
-.projects:hover .overlay{
+.projects:hover .overlay {
   opacity: 1;
   background: #151821;
 }
-.project-details{
+.project-details {
   position: absolute;
   text-align: center;
   width: 350px;
@@ -164,7 +160,7 @@ h4 {
   left: 50%;
   opacity: 0;
   transform: translate(-50%, -50%);
-  transition: all 0.3s ease-in-out 0s; 
+  transition: all 0.3s ease-in-out 0s;
 }
 .projects:hover .project-details {
   opacity: 1;
@@ -190,8 +186,8 @@ h4 {
   opacity: 0.3;
   pointer-events: none;
 }
-.project-site:hover{
-  color:#e8f05b;
+.project-site:hover {
+  color: #e8f05b;
 }
 .overlay {
   top: 0;
@@ -215,23 +211,22 @@ input {
   display: inline-block;
   width: 50%;
   line-height: 3em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 12pt;
   color: #ffffff;
   background: #2f364a;
   border: none;
-  
 }
-input[type=text]:focus {
+input[type="text"]:focus {
   outline: 1x solid #e8f05b;
 }
-input[type=email]:focus {
+input[type="email"]:focus {
   outline: 1px solid #e8f05b;
 }
 textarea {
   width: 50%;
   line-height: 6em;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 12pt;
   background: #2f364a;
   border: none;
@@ -246,7 +241,7 @@ textarea:focus {
   text-transform: uppercase;
   /* border-color: #e8f05b; */
   color: white;
-  background:#182036;
+  background: #182036;
   font-size: 14pt;
   letter-spacing: 2px;
   border: none;
@@ -300,7 +295,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   z-index: 1;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .modal {
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
@@ -336,13 +331,13 @@ a:hover {
     align-items: center;
     text-align: center;
   }
-	body {
+  body {
     min-width: 100vw;
     justify-content: center;
   }
-  .navbar > a{
-    padding-right: 10px;
-    margin: 10px;
+  .navbar > a {
+    padding-right: 7px;
+    margin: 7px;
     font-size: 0.7rem;
   }
   #h2-header {
@@ -372,39 +367,38 @@ a:hover {
   .aboutme-details {
     max-width: 600px;
   }
-  p{
+  p {
     font-size: 0.5rem;
   }
   .profile-pic {
-    max-width: 300px;;
-    height: auto;
-    flex-wrap: wrap;
+    display: none;
   }
   .projects-container {
     padding: 0px auto;
     margin: 0px auto;
     position: relative;
+    max-width: 500px;
   }
   .projects {
     width: 300px;
     height: 220px;
     position: relative;
-    margin: 10px;
-    padding: 10px;
+    margin-left: 0px;
+    padding-left: 00px;
     box-shadow: none;
-
-  };
- .projects .overlay {
+  }
+  .projects .overlay {
     width: 300px;
     height: 220px;
   }
   .project-image {
     width: 300px;
     height: 220px;
+    margin-left: none;
   }
   .project-details {
-    width: 200px;
-    height: 175px;
+    width: 270px;
+    height: 200px;
   }
   .project-p {
     font-size: 8pt;
@@ -419,12 +413,33 @@ a:hover {
   }
   #submit-button {
     font-size: 0.5rem;
-    }
+  }
   .input {
     font-size: 0.5rem;
   }
-.programming-icons {
-  height: 30px;
-  width: 30px;
-}
+  .programming-icons {
+    height: 30px;
+    width: 30px;
+  }
+  .project-site {
+    font-size: 0.5rem;
+  }
+  .view-button {
+    border: none;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+  }
+  .icon-align {
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    text-align: left;
+  }
+  textarea {
+    font-size: 0.7rem;
+  }
+  input {
+    font-size: 0.7rem;
+  }
 }
