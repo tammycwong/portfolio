@@ -343,10 +343,10 @@ a:hover {
   .navbar > a {
     padding-right: 7px;
     margin: 7px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   #h2-header {
-    font-size: 1rem;
+    font-size: 1.3rem;
     word-wrap: break-word;
     letter-spacing: 1px;
   }
@@ -354,7 +354,7 @@ a:hover {
     font-size: 1rem;
   }
   .typing-demo {
-    font-size: 1rem;
+    font-size: 1.3rem;
     word-wrap: break-word;
     display: inline-block;
     letter-spacing: 1px;
@@ -455,4 +455,9 @@ a:hover {
   .horizontal-bar {
     width: 50px;
   }
+.modal {
+  max-width: 400px;
+  position: fixed;
+  display: flex;
+}
 }
