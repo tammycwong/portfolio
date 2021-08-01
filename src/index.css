@@ -341,20 +341,20 @@ a:hover {
 
   }
   .navbar > a {
-    padding-right: 7px;
+    padding-right: 3px;
     margin: 7px;
     font-size: 0.7rem;
   }
   #h2-header {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     word-wrap: break-word;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
   }
   h2 {
     font-size: 1rem;
   }
   .typing-demo {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     word-wrap: break-word;
     display: inline-block;
     letter-spacing: 1px;
@@ -393,7 +393,7 @@ a:hover {
     height: 220px;
     position: relative;
     margin-left: 0px;
-    padding-left: 00px;
+    padding-left: 0px;
     box-shadow: none;
     overflow: hidden;
   }
@@ -457,7 +457,7 @@ a:hover {
   }
 .modal {
   max-width: 400px;
-  height:320px;
+  height:270px;
   position: fixed;
   display: flex;
 }
