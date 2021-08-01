@@ -321,11 +321,17 @@ a:hover {
   text-align: left;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 1200px) {
   body {
+    align-items: center;
     display: flex;
   }
   .header {
-    display: flex;
+    max-width: 500px;
+    flex-direction: column;
+  }
+  section {
+    max-width: 500px;
+    justify-content: center;
   }
 }
