@@ -8,6 +8,7 @@ body {
   /* background-color: #050d26; */
   color: white;
   max-width: 100%;
+  min-height: 100vh;
 }
 h2 {
   font-weight: normal;
@@ -54,11 +55,12 @@ h4 {
   font-size: 28pt;
 }
 .header {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   white-space: pre-wrap;
+  min-height: 100vh;
+  height: 100vh;
 }
 .project-image {
   width: 450px;
@@ -102,9 +104,12 @@ h4 {
 }
 .profile-pic {
   border-radius: 700px;
-  max-height: 450px;
+  max-height: 400px;
   width: auto;
   /* border: 3px solid #e8f05b; */
+  opacity: 0.6;
+}
+.profile-pic:hover {
   opacity: 1;
 }
 .programming-icons {
@@ -113,7 +118,7 @@ h4 {
   padding-right: 20px;
 }
 .framework-container {
-  height: 100vh;
+  /* height: 100vh; */
   border: white solid 2px;
 }
 #framework {
@@ -136,6 +141,7 @@ h4 {
   margin: 50px;
   box-shadow: 2px 5px 8px #808080;
   position: relative;
+  opacity: 0.8;
   
 }
 .projects .overlay {
@@ -200,7 +206,7 @@ h4 {
   margin: 0px auto;
 }
 .contact-container {
-  height: 100vh;
+  /* height: 100vh; */
   margin-top: 20px;
   padding-top: 50px;
   position: relative;
@@ -273,14 +279,14 @@ a {
 a:hover {
   color: #e8f05b;
 }
-.navbar {
+/* .navbar {
   text-align: right;
   padding-top: 15px;
   max-width: 99%;
 }
 .navbar > a{
   margin-left: 25px;
-}
+} */
 .resume {
   border: #e8f05b solid 2px;
   padding: 10px;
@@ -321,17 +327,65 @@ a:hover {
   text-align: left;
 }
 
-@media (max-width: 1200px) {
-  body {
-    align-items: center;
-    display: flex;
+@media (max-width: 500px) {
+  html {
+    width: 600px;
+    margin: 0 auto;
+    padding: 0px auto;
   }
-  .header {
-    max-width: 500px;
+	body {
+    min-width: 100vw;
+    justify-content: center;
+  }
+  .nav-bar {
+    padding-right: 5px;
+    font-size: 1rem;
+  }
+  #h2-header {
+    font-size: 1.3rem;
+    word-wrap: break-word;
+    letter-spacing: 0px;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  .typing-demo {
+    font-size: 1.3rem;
+    word-wrap: break-word;
+    display: inline-block;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  .aboutme-container {
+    display: flex;
     flex-direction: column;
   }
-  section {
-    max-width: 500px;
-    justify-content: center;
+  .aboutme-details {
+    max-width: 600px;
+  }
+  p{
+    font-size: 10pt;
+  }
+  .profile-pic {
+    max-width: 300px;;
+    position: relative;
+    height: auto;
+  }
+  .projects-container {
+    padding: 0px auto;
+    margin: 0px auto;
+  }
+  .projects {
+    width: 150px;
+    height: auto;
+  };
+  .overlay {
+    width: 150px;
+    height: 75px;
+  }
+  img {
+    width: 150px;
+    height: auto;
   }
 }

@@ -38,7 +38,8 @@ function AboutMe() {
           <div className="profile-pic-container">
             <img
               className="profile-pic"
-              src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
+              // src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
+              src ="https://i.ibb.co/vd8p8rM/Screen-Shot-2021-08-01-at-11-43-45-AM.png"
               alt="profile pic"
             />
             {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
