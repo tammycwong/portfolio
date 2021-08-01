@@ -7,7 +7,7 @@ body {
   background-color: #182036;
   /* background-color: #050d26; */
   color: white;
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 h2 {
   font-weight: normal;
@@ -285,13 +285,13 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10;
-  background-color: 1;
+  z-index: 1;
+  background-color: rgba(0,0,0,0.2);
 }
 .modal {
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
   position: relative;
-  z-index: 1000;
+  z-index: 1;
 }
 .demo:hover {
   cursor: pointer;
