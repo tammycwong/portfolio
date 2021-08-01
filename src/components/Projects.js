@@ -184,6 +184,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
           <img
             src="https://i.ibb.co/XZ73RZK/Screen-Shot-2021-07-26-at-8-54-37-PM.png"
             alt="All Movies"
+            className="project-image"
           />
           <br />
           <div className="overlay"></div>

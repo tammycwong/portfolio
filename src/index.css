@@ -60,9 +60,9 @@ h4 {
   justify-content: center;
   white-space: pre-wrap;
 }
-img {
+.project-image {
   width: 450px;
-  height: 320px;;
+  height: 320px;
   transition: .7s ease;
   backface-visibility: hidden;
   /* opacity: 0.7; */
@@ -102,7 +102,7 @@ img {
 }
 .profile-pic {
   border-radius: 700px;
-  height: 450px;
+  max-height: 450px;
   width: auto;
   /* border: 3px solid #e8f05b; */
   opacity: 1;
