@@ -124,7 +124,7 @@ h4 {
 }
 .projects-container {
   margin-top: 20px;
-  padding: 30px;
+  /* padding: 30px; */
   position: relative;
   /* max-width: 85%; */
   /* overflow: scroll; */
@@ -274,14 +274,14 @@ a {
 a:hover {
   color: #e8f05b;
 }
-/* .navbar {
+.navbar {
   text-align: right;
   padding-top: 15px;
   max-width: 99%;
 }
 .navbar > a{
   margin-left: 25px;
-} */
+}
 .resume {
   border: #e8f05b solid 2px;
   padding: 10px;
