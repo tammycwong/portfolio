@@ -124,7 +124,7 @@ h4 {
 }
 .projects-container {
   margin-top: 20px;
-  padding: 70px;
+  padding: 30px;
   position: relative;
   /* max-width: 85%; */
   /* overflow: scroll; */
@@ -361,14 +361,14 @@ a:hover {
     font-size: 8pt;
   }
   .aboutme-container {
-    max-width: 500px;
+    /* max-width: 500px; */
     display: flex;
   }
-  .aboutme-details {
+  /* .aboutme-details {
     max-width: 600px;
-  }
+  } */
   p {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
   .profile-pic {
     display: none;
@@ -378,6 +378,7 @@ a:hover {
     margin: 0px auto;
     position: relative;
     max-width: 500px;
+    overflow: hidden;
   }
   .projects {
     width: 300px;
@@ -441,5 +442,8 @@ a:hover {
   }
   input {
     font-size: 0.7rem;
+  }
+  .horizontal-bar {
+    width: 50px;
   }
 }
