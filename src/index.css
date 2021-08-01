@@ -7,7 +7,7 @@ body {
   background-color: #182036;
   /* background-color: #050d26; */
   color: white;
-  max-width: 85%;
+  max-width: 100%;
 }
 h2 {
   font-weight: normal;
@@ -34,7 +34,7 @@ h3 {
   font-weight: normal;
   letter-spacing: 2px;
   font-size: 16pt;
-  margin: 5px;
+  margin-top: 13px;
   /* margin: 7px auto; */
 }
 h4 {
@@ -44,14 +44,14 @@ h4 {
 .typing-demo {
   white-space: nowrap;
   overflow: hidden;
-  font-size: 32pt;
+  font-size: 28pt;
   font-weight: normal;
   color: #e8f05b;
   letter-spacing: 2px;
 }
 #h2-header {
   text-transform: none;
-  font-size: 32pt;
+  font-size: 28pt;
 }
 .header {
   height: 100vh;
@@ -86,6 +86,7 @@ img {
 .aboutme-container {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 
 }
 .aboutme {
@@ -117,8 +118,10 @@ img {
 }
 .projects-container {
   margin-top: 20px;
-  padding-top: 50px;
+  padding: 70px;
   position: relative;
+  overflow: hidden;
+
 }
 .projects {
   display: inline-grid;
@@ -140,7 +143,7 @@ img {
 }
 .projects:hover .overlay {
   opacity: 1;
-  background: #1f1f1f;
+  background: #151821;
 }
 .project-details{
   position: absolute;
@@ -246,9 +249,8 @@ textarea:focus {
   padding: 20px;
   display: inline;
 }
-#footer {
+#social-links {
   bottom: 0;
-  /* background: #e8f05b; */
   margin-top: 50px;
 }
 .section {
@@ -266,6 +268,7 @@ a:hover {
 .navbar {
   text-align: right;
   padding-top: 15px;
+  max-width: 95%
 }
 .navbar > a{
   margin-left: 25px;
@@ -274,17 +277,16 @@ a:hover {
   border: #e8f05b solid 2px;
   padding: 10px;
   text-decoration: none;
-  /* right: 0; */
 }
 .modal-background {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: 1;
 }
 .modal {
   box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
@@ -297,9 +299,12 @@ a:hover {
 .contact-h4 {
   margin: 0px auto;
   padding: 0px auto;
-  padding-top: 10px;
   color: #e8f05b;
   letter-spacing: 2px;
+}
+.contact-h3 {
+  margin: 0px auto;
+  padding-bottom: 7px;
 }
 .icon-align {
   bottom: 0;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, animateScroll as scroll} from 'react-scroll';
+import { Link } from 'react-scroll';
 
 function NavBar() {
 
@@ -14,7 +14,7 @@ function NavBar() {
         <Link to="contact-section" smooth={true} duration={1000}>
             Contact
         </Link>
-        <a href="https://www.docdroid.net/AVcKg18/0729resume-pdf" className="resume" target="_blank">Resume</a>
+        <a href="https://www.docdroid.net/AVcKg18/0729resume-pdf" className="resume" target="_blank" rel="noreferrer">Resume</a>
 
     </div>
     

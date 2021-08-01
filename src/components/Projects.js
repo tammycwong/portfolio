@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import "animate.css/animate.min.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -18,6 +18,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
           <img
             className="project-image"
             src="https://i.ibb.co/2qwjRTb/Screen-Shot-2021-07-26-at-3-53-08-PM.png"
+            alt="PalCal"
           />
           <br />
           <div class="overlay"></div>
@@ -26,36 +27,43 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
             <h4 className="tools">React | Rails | JWT | Custom CSS</h4>
 
             <p className="project-p">
-              Instagram but with a calendar; a network
-              for friends to snoop on each other's personal, yet mildly private
-              event calendar.
+              Instagram but with a calendar; a network for friends to snoop on
+              each other's personal, yet mildly private event calendar.
             </p>
             <div className="icon-align">
-            <a
-              href="https://github.com/tammycwong/frontend_events"
-              target="_blank"
-            >
-              <img
-                className="icon"
-                src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
-              />
-            </a>
+              <a
+                href="https://github.com/tammycwong/frontend_events"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="icon"
+                  src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+                  alt="GitHub"
+                />
+              </a>
 
-            <a
-              onClick={() => {
-                setIsOpen(true);
-                setActiveVideo("4YpLQZZIsIM");
-              }}
-              className="demo"
-            >
-              <img
-                className="icon"
-                src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
-              />
-            </a>
+              <a
+                onClick={() => {
+                  setIsOpen(true);
+                  setActiveVideo("4YpLQZZIsIM");
+                }}
+                className="demo"
+              >
+                <img
+                  className="icon"
+                  src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
+                  alt="demo"
+                />
+              </a>
             </div>
             <div className="view-button">
-              <a href="" class="project-site disable" target="_blank">
+              <a
+                href=""
+                class="project-site disable"
+                target="_blank"
+                rel="noreferrer"
+              >
                 View Site
               </a>
             </div>
@@ -66,6 +74,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
           <img
             class="project-image"
             src="https://i.ibb.co/qmntqK2/Screen-Shot-2021-07-26-at-4-28-38-PM.png"
+            alt="Loo Review"
           />
           <br />
           <div class="overlay"></div>
@@ -84,10 +93,12 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
               <a
                 href="https://github.com/pjhg14/Phase-2-rr-location-frontend"
                 target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="icon"
                   src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+                  alt="GitHub"
                 />
               </a>
 
@@ -98,19 +109,19 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 }}
                 className="demo"
               >
-                
                 <img
                   className="icon"
                   src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
+                  alt="demo"
                 />
               </a>
-              </div>
-              <div class="view-button">
+            </div>
+            <div class="view-button">
               <a
                 href="https://loo-review.netlify.app/"
                 target="_blank"
                 className="project-site"
-                target="_blank"
+                rel="noreferrer"
               >
                 View Site
               </a>
@@ -123,6 +134,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
           <img
             className="project-image"
             src="https://i.ibb.co/d4PYrZb/Screen-Shot-2021-07-31-at-3-41-20-PM.png"
+            alt="Pokemon Memory Game"
           />
           <div className="overlay"></div>
           <div className="project-details fadeIn-bottom">
@@ -139,41 +151,45 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 href="https://pkmn-memory-game.netlify.app/"
                 class="project-site"
                 target="_blank"
+                rel="noreferrer"
               >
                 View Site
               </a>
             </div>
             <div className="icon-align">
-            <a
-              href="https://github.com/tammycwong/pokemon-memory-game"
-              target="_blank"
-            >
-              <img
-                className="icon"
-                src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
-              />
-            </a>
+              <a
+                href="https://github.com/tammycwong/pokemon-memory-game"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="icon"
+                  src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+                  alt="GitHub"
+                />
+              </a>
 
-            <a href="" target="_blank" className="disable">
-              <img
-                className="icon"
-                src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
-              />
-            </a>
+              <a href="" target="_blank" className="disable" rel="noreferrer">
+                <img
+                  className="icon"
+                  src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
+                  alt="demo"
+                />
+              </a>
             </div>
-           
           </div>
         </div>
 
         <div data-aos="" className="projects">
-          <img src="https://i.ibb.co/XZ73RZK/Screen-Shot-2021-07-26-at-8-54-37-PM.png" />
+          <img
+            src="https://i.ibb.co/XZ73RZK/Screen-Shot-2021-07-26-at-8-54-37-PM.png"
+            alt="All Movies"
+          />
           <br />
           <div className="overlay"></div>
           <div className="project-details fadeIn-bottom">
             <h3>All Movies (but only from 2004)</h3>
             <h4 className="tools">JavaScript | Custom CSS</h4>
-
-            
 
             <p className="project-p">
               All Movies (but only from 2004) dedicates and provides movies
@@ -181,35 +197,38 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
             </p>
 
             <div className="icon-align">
-            <a
-              href="https://github.com/adamberard24/front-end-with-AdamandTammy"
-              target="_blank"
-            >
-              <img
-                className="icon"
-                src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
-              />
-            </a>
+              <a
+                href="https://github.com/adamberard24/front-end-with-AdamandTammy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="icon"
+                  src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+                  alt="GitHub"
+                />
+              </a>
 
-            <a
-              onClick={() => {
-                setIsOpen(true);
-                setActiveVideo("1sezCSgZYDs");
-              }}
-              className="demo"
-            >
-              <img
-                className="icon"
-                src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
-              />
-            </a>
-
+              <a
+                onClick={() => {
+                  setIsOpen(true);
+                  setActiveVideo("1sezCSgZYDs");
+                }}
+                className="demo"
+              >
+                <img
+                  className="icon"
+                  src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
+                  alt="GitHub"
+                />
+              </a>
             </div>
             <div className="view-button">
               <a
                 href="https://moviesfrom2004.netlify.app/"
                 class="project-site"
                 target="_blank"
+                rel="noreferrer"
               >
                 View Site
               </a>

@@ -39,6 +39,7 @@ function AboutMe() {
             <img
               className="profile-pic"
               src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
+              alt="profile pic"
             />
             {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
           </div>
@@ -49,18 +50,22 @@ function AboutMe() {
           <img
             className="programming-icons"
             src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png"
+            alt="CSS, HTML, JavaScript"
           />
           <img
             className="programming-icons"
             src="https://www.rapiddg.com/sites/default/files/imce-files/react.png"
+            alt="React"
           />
           <img
             className="programming-icons"
             src="https://dctacademy.com/wp-content/uploads/2015/06/ruby-logo.png"
+            alt="Ruby"
           />
           <img
             className="programming-icons"
             src="https://avatars.githubusercontent.com/u/4223"
+            alt="Ruby on Rails"
           />
           <h3>Tools:</h3>
           <img
