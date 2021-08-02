@@ -38,7 +38,6 @@ function Contact() {
           <a
             href="https://linkedin.com/in/tammycwong"
             target="_blank"
-            rel="noreferrer"
           >
             <img
               className="contact-icon"
@@ -52,7 +51,6 @@ function Contact() {
           <a
             href="https://tammycwong.medium.com/"
             target="_blank"
-            rel="noreferrer"
           >
             <img
               className="contact-icon"
@@ -66,7 +64,6 @@ function Contact() {
           <a
             href="https://github.com/tammycwong"
             target="_blank"
-            rel="noreferrer"
           >
             <img
               className="contact-icon"
@@ -78,7 +75,6 @@ function Contact() {
           <a
             href="https://instagram.com/handsome_awkwrd/"
             target="_blank"
-            rel="noreferrer"
           >
             <img
               className="contact-icon"

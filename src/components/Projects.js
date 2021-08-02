@@ -11,7 +11,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
   return (
     <section id="projects-section">
       <div className="projects-container">
-        <h2 data-aos="fade-left">Projects</h2>
+        <h2 data-aos="fade-left"> Projects</h2>
         <div className="horizontal-bar" data-aos="fade-left"></div>
 
         <div className="projects" data-aos="">
@@ -34,7 +34,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
               <a
                 href="https://github.com/tammycwong/frontend_events"
                 target="_blank"
-                rel="noreferrer"
               >
                 <img
                   className="icon"
@@ -62,7 +61,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 href=""
                 class="project-site disable"
                 target="_blank"
-                rel="noreferrer"
               >
                 View Site
               </a>
@@ -93,7 +91,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
               <a
                 href="https://github.com/pjhg14/Phase-2-rr-location-frontend"
                 target="_blank"
-                rel="noreferrer"
               >
                 <img
                   className="icon"
@@ -121,7 +118,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 href="https://loo-review.netlify.app/"
                 target="_blank"
                 className="project-site"
-                rel="noreferrer"
               >
                 View Site
               </a>
@@ -151,7 +147,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 href="https://pkmn-memory-game.netlify.app/"
                 class="project-site"
                 target="_blank"
-                rel="noreferrer"
               >
                 View Site
               </a>
@@ -160,7 +155,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
               <a
                 href="https://github.com/tammycwong/pokemon-memory-game"
                 target="_blank"
-                rel="noreferrer"
               >
                 <img
                   className="icon"
@@ -201,7 +195,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
               <a
                 href="https://github.com/adamberard24/front-end-with-AdamandTammy"
                 target="_blank"
-                rel="noreferrer"
               >
                 <img
                   className="icon"
@@ -229,7 +222,6 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
                 href="https://moviesfrom2004.netlify.app/"
                 class="project-site"
                 target="_blank"
-                rel="noreferrer"
               >
                 View Site
               </a>

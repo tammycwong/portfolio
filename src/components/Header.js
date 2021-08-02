@@ -9,6 +9,7 @@ function AboutMe() {
         <div className="typing-demo">
         
           <Typewriter
+          id="typing"
           options={{
             strings: ['software developer.', 
             'full stack engineer.',

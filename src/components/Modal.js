@@ -4,8 +4,9 @@ function Modal({isOpen, setIsOpen, activeVideo}) {
     }
     if (isOpen) {
         return (
-            <div className="modal-background" onClick={(handleClose)}>
+            <div className="modal-background" onClick={(handleClose)} >
                 <div className="modal">
+                {/* <button className="close" onClick={(handleClose)}>Close</button> */}
                 <iframe
                         width="853"
                         height="480"
