@@ -288,7 +288,7 @@ a:hover {
   padding-top: 15px;
   max-width: 99%;
 }
-.navbar > a{
+.navbar > a {
   margin-left: 25px;
 }
 .resume {
@@ -332,7 +332,7 @@ a:hover {
 }
 
 @media (max-width: 1200px) {
-  html {
+  .html{
     /* max-width: 500px; */
     margin: 0 auto;
     padding: 0px auto;
@@ -342,11 +342,13 @@ a:hover {
     position: relative;
     min-width: 100vh;
   }
+  .App {
+    justify-content: center;
+  }
   body {
     /* min-width: 100vw; */
     justify-content: center;
     display: flex;
-
   }
   .navbar > a {
     padding-right: 3px;
@@ -354,7 +356,7 @@ a:hover {
     font-size: 0.7rem;
   }
   #h2-header {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     word-wrap: break-word;
     letter-spacing: 1px;
   }
@@ -362,7 +364,7 @@ a:hover {
     font-size: 1rem;
   }
   .typing-demo {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     word-wrap: break-word;
     letter-spacing: 2px;
     position: absolute;
@@ -393,10 +395,11 @@ a:hover {
     display: none;
   }
   .projects-container {
-    padding: 0px auto;
+    /* padding: 0px auto; */
     margin: 0px auto;
     position: relative;
     overflow: hidden;
+    justify-content: center;
   }
   .projects {
     width: 375px;
@@ -465,11 +468,10 @@ a:hover {
   .horizontal-bar {
     width: 50px;
   }
-.modal {
-  /* max-height: 20vh;
-  max-width: 10vw;
-  position: fixed;
-  display: flex; */
-  min-width: 100vh;
-}
+  /* .modal {
+    max-height: 20vh;
+    max-width: 10vw;
+    position: fixed;
+    display: flex;
+  } */
 }
