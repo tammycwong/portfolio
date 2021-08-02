@@ -340,7 +340,7 @@ a:hover {
     align-items: center;
     text-align: center;
     position: relative;
-    min-width: 100vh;
+    /* min-width: 100vh; */
   }
   .App {
     justify-content: center;
@@ -402,26 +402,26 @@ a:hover {
     justify-content: center;
   }
   .projects {
-    width: 375px;
-    height: 270px;
+    width: 330px;
+    height: 220px;
     /* position: relative; */
-    margin-left: 0px;
+    margin-left: 20px;
     padding-left: 0px;
     box-shadow: none;
     overflow: hidden;
   }
   .projects .overlay {
-    width: 375px;
-    height: 270px;
+    width: 330px;
+    height: 220px;
   }
   .project-image {
-    width: 375px;
-    height: 270px;
+    width: 330px;
+    height: 220px;
     margin-left: none;
   }
   .project-details {
     width: 300px;
-    height: 230px;
+    height: 220px;
   }
   .project-p {
     font-size: 8pt;
@@ -468,10 +468,10 @@ a:hover {
   .horizontal-bar {
     width: 50px;
   }
-  /* .modal {
-    max-height: 20vh;
-    max-width: 10vw;
+  .modal {
+    max-height: 220px;
+    /* max-width: 10vw;
     position: fixed;
-    display: flex;
-  } */
+    display: flex; */
+  }
 }
