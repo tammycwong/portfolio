@@ -8,6 +8,15 @@ function AboutMe() {
         <h2 data-aos="fade-left">About Me</h2>
         <div className="horizontal-bar" data-aos="fade-left"></div>
         <div className="aboutme-details">
+        {/* <div className="profile-pic-container"> */}
+            <img
+              className="profile-pic"
+              // src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
+              src ="https://i.ibb.co/vd8p8rM/Screen-Shot-2021-08-01-at-11-43-45-AM.png"
+              alt="profile pic"
+            />
+            {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
+          {/* </div> */}
           <p className="aboutme">
             A career changer from hospitality management to tech.
             <br />
@@ -35,7 +44,7 @@ function AboutMe() {
             PS: I lived a life without Google.
           </p>
 
-          <div className="profile-pic-container">
+          {/* <div className="profile-pic-container">
             <img
               className="profile-pic"
               // src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
@@ -43,16 +52,26 @@ function AboutMe() {
               alt="profile pic"
             />
             {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
-          </div>
         </div>
 
         <div id="framework">
           <h3 className="inline">Programming languages:</h3>
-          <img
+                    <img
             className="programming-icons"
-            src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-devextreme-multi-purpose-controls-html-javascript-3.png"
-            alt="CSS, HTML, JavaScript"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Devicon-css3-plain.svg/2048px-Devicon-css3-plain.svg.png"
+            alt="CSS"
           />
+                    <img
+            className="programming-icons"
+            src="https://image.flaticon.com/icons/png/512/732/732212.png"
+            alt="HTML"
+          />
+                    <img
+            className="programming-icons"
+            src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
+            alt="JavaScript"
+          />
+          
           <img
             className="programming-icons"
             src="https://www.rapiddg.com/sites/default/files/imce-files/react.png"
