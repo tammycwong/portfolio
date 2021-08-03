@@ -237,9 +237,9 @@ input {
 input[type="text"]:focus {
   outline: 1x solid #e8f05b;
 }
-input[type="email"]:focus {
+/* input[type="email"]:focus {
   outline: 1px solid #e8f05b;
-}
+} */
 textarea {
   width: 50%;
   line-height: 6em;
@@ -249,7 +249,10 @@ textarea {
   border: none;
   color: #ffffff;
 }
-textarea:focus {
+/* textarea:focus {
+  outline: 1px solid #e8f05b;
+} */
+.input-field:focus {
   outline: 1px solid #e8f05b;
 }
 #submit-button {

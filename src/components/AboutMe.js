@@ -8,14 +8,14 @@ function AboutMe() {
         <h2 data-aos="fade-down">About Me</h2>
         <div className="horizontal-bar" data-aos="fade-down"></div>
         <div className="aboutme-details">
-        {/* <div className="profile-pic-container"> */}
-            <img
-              className="profile-pic"
-              // src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
-              src ="https://i.ibb.co/vd8p8rM/Screen-Shot-2021-08-01-at-11-43-45-AM.png"
-              alt="profile pic"
-            />
-            {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
+          {/* <div className="profile-pic-container"> */}
+          <img
+            className="profile-pic"
+            // src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
+            src="https://i.ibb.co/vd8p8rM/Screen-Shot-2021-08-01-at-11-43-45-AM.png"
+            alt="profile pic"
+          />
+          {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
           {/* </div> */}
           <p className="aboutme">
             A career changer from hospitality management to tech.
@@ -56,22 +56,22 @@ function AboutMe() {
 
         <div id="framework">
           <h3 className="inline">Programming languages:</h3>
-                    <img
+          <img
             className="programming-icons"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Devicon-css3-plain.svg/2048px-Devicon-css3-plain.svg.png"
             alt="CSS"
           />
-                    <img
+          <img
             className="programming-icons"
             src="https://image.flaticon.com/icons/png/512/732/732212.png"
             alt="HTML"
           />
-                    <img
+          <img
             className="programming-icons"
             src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
             alt="JavaScript"
           />
-          
+
           <img
             className="programming-icons"
             src="https://www.rapiddg.com/sites/default/files/imce-files/react.png"
@@ -112,13 +112,13 @@ function AboutMe() {
             alt="JWT"
             title="JWT"
           />
-          <img
+          {/* <img
             className="programming-icons"
             src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
             width="55px"
             alt="GitHub"
             title="GitHub"
-          />
+          /> */}
           <img
             className="programming-icons"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/1200px-Adobe_Creative_Cloud_rainbow_icon.svg.png"

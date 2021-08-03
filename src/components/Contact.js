@@ -16,15 +16,16 @@ function Contact() {
             id="contact-form"
             action="mailto:tammycwong@gmail.com"
             method="post"
-            // encrypt="text/plain"
+            encrypt="text/plain"
+            autocomplete="off"
           >
-            <input class="input-field" type="text" placeholder="Name" />
+            <input className="input-field" type="text" placeholder="Name" />
             <br />
             <br />
-            <input class="input-field" type="email" placeholder="Enter email" />
+            <input className="input-field" type="email" placeholder="Enter email" />
             <br />
             <br />
-            <textarea class="input-field" type="text" placeholder="Message" />
+            <textarea className="input-field" type="text" placeholder="Message" />
             <br />
             <input id="submit-button" type="submit" value="Submit" />
           </form>
