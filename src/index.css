@@ -364,16 +364,15 @@ iframe {
     font-size: 8pt;
   }
   .aboutme-container {
-    max-width: 500px;
+    /* max-width: 500px; */
     position: relative;
     margin-bottom: 100px;
     align-items: center;
     justify-content: center;
-    /* display: inline-grid; */
   }
   p.aboutme {
     position: relative;
-    margin: 0px 12px 0px 12px;
+    margin: 0px 15px 0px 15px;
   }
   p {
     font-size: 0.75rem;
@@ -397,14 +396,14 @@ iframe {
   .projects {
     width: 330px;
     height: 220px;
-    position: relative;
+    /* position: relative; */
     margin-left: 10px;
     padding-left: 0px;
     box-shadow: none;
     overflow: hidden;
   }
   .project-details {
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     width: 320px;
     height: 220px;
@@ -414,6 +413,7 @@ iframe {
     opacity: 1;
     transform: translate(-50%, -50%);
     background: #151821;
+    padding-top: 50px;
   }
   /* .projects .overlay {
     width: 330px;
@@ -426,6 +426,12 @@ iframe {
     font-size: 8pt;
     width: 250px;
     height: 200px;
+  }
+  .icon-align {
+    padding: 30px;
+  }
+  .view-button{
+    padding: 40px;
   }
   .icon {
     width: 25px;
