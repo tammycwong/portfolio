@@ -2,7 +2,6 @@
 .App {
   justify-content: center;
   margin: auto;
-  min-width: 100vh;
 
 }
 body {
@@ -364,7 +363,7 @@ a:hover {
   .navbar > a {
     padding-right: 3px;
     margin: 7px;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   #h2-header {
     font-size: 1.2rem;
@@ -383,7 +382,7 @@ a:hover {
     margin-top: 50px;
   }
   h3 {
-    font-size: 10pt;
+    font-size: 0.7rem;
   }
   h4 {
     font-size: 8pt;
@@ -401,7 +400,7 @@ a:hover {
     margin: 0px 12px 0px 12px;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   .profile-pic {
     text-align: center;
