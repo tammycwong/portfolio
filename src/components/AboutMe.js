@@ -5,8 +5,8 @@ function AboutMe() {
   return (
     <section id="about-section">
       <div className="aboutme-container">
-        <h2 data-aos="fade-down">About Me</h2>
-        <div className="horizontal-bar" data-aos="fade-down"></div>
+        <h2 data-aos="fade-up">About Me</h2>
+        <div className="horizontal-bar" data-aos="fade-up"></div>
         <div className="aboutme-details">
           {/* <div className="profile-pic-container"> */}
           <img

@@ -11,8 +11,8 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
   return (
     <section id="projects-section">
       <div className="projects-container">
-        <h2 data-aos="fade-down" > Projects</h2>
-        <div className="horizontal-bar" data-aos="fade-down"></div>
+        <h2 data-aos="fade-up"> Projects</h2>
+        <div className="horizontal-bar" data-aos="fade-up"></div>
 
         <div className="projects" data-aos="">
           <img
@@ -57,11 +57,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
               </a>
             </div>
             <div className="view-button">
-              <a
-                href=""
-                class="project-site disable"
-                target="_blank"
-              >
+              <a href="" class="project-site disable" target="_blank">
                 View Site
               </a>
             </div>
