@@ -114,10 +114,11 @@ h4 {
   opacity: 0.5;
   top: 0;
   margin: 15px;
+  padding-top: 40px;
 }
-.profile-pic:hover {
+/* .profile-pic:hover {
   opacity: 1;
-}
+} */
 .programming-icons {
   height: 50px;
   width: auto;
