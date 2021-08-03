@@ -411,7 +411,7 @@ a:hover {
     left: 50%;
     margin-top: -600px;
     margin-left: -130px;
-
+    display:none;
     
   }
   .projects-container {
@@ -486,9 +486,9 @@ a:hover {
   input {
     font-size: 0.7rem;
   }
-  /* .horizontal-bar {
+  .horizontal-bar {
     width: 50px;
-  } */
+  }
   .modal {
     min-width: 150px;
     min-height: 75px;

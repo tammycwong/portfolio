@@ -4,8 +4,8 @@ function Contact() {
   return (
     <section id="contact-section">
       <div className="contact-container">
-        <h2 data-aos="fade-left">Contact</h2>
-        <div className="horizontal-bar" data-aos="fade-left"></div>
+        <h2 data-aos="fade-down">Contact</h2>
+        <div className="horizontal-bar" data-aos="fade-down"></div>
         <h3 className="contact-h3">
           Have a question or want to work together?
         </h3>

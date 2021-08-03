@@ -11,8 +11,8 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
   return (
     <section id="projects-section">
       <div className="projects-container">
-        <h2 data-aos="fade-left"> Projects</h2>
-        <div className="horizontal-bar" data-aos="fade-left"></div>
+        <h2 data-aos="fade-down" > Projects</h2>
+        <div className="horizontal-bar" data-aos="fade-down"></div>
 
         <div className="projects" data-aos="">
           <img
