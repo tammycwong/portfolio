@@ -8,8 +8,8 @@ function Modal({isOpen, setIsOpen, activeVideo}) {
                 <div className="modal">
                 {/* <button className="close" onClick={(handleClose)}>Close</button> */}
                 <iframe
-                        width="853"
-                        height="480"
+                        width="100%"
+                        height="100%"
                         src={`https://www.youtube.com/embed/${activeVideo}`}
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

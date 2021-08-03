@@ -14,7 +14,7 @@ function NavBar() {
         <Link to="contact-section" smooth={true} duration={1000}>
             Contact
         </Link>
-        <a href="https://www.docdroid.net/AVcKg18/0729resume-pdf" className="resume" target="_blank" rel="noreferrer">Resume</a>
+        <a href="https://drive.google.com/file/d/1EygD0hKfBJICHhkxrskBP6AUkLYT3fsp/view?usp=sharing" className="resume" target="_blank" rel="noreferrer">Resume</a>
 
     </div>
     
