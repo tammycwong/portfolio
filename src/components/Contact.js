@@ -16,7 +16,7 @@ function Contact() {
             id="contact-form"
             action="mailto:tammycwong@gmail.com"
             method="post"
-            encrypt="text/plain"
+            // encrypt="text/plain"
           >
             <input class="input-field" type="text" placeholder="Name" />
             <br />

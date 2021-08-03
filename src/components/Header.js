@@ -16,6 +16,7 @@ function AboutMe() {
             'hot cheetos advocate.',
             'land mammal.',
             'plant mom.',
+            'Pokemon master.',
           ],
             autoStart: true,
             loop: true,

@@ -31,7 +31,7 @@ function AboutMe() {
             my blog platforms- Xanga and LiveJournal. <br />
             I loved changing themes to my site through custom banners, mp3s and
             dynamic styling with JavaScript and CSS. <br />
-            Each layout taylored to my current mood as an angsty teen.
+            Each layout tailored to my current mood as an angsty teen.
             <br />
             <br />
             My background in cognitive and behaviorial psychology helps me
