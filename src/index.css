@@ -232,7 +232,6 @@ textarea {
   height: 50px;
   width: 150px;
   text-transform: uppercase;
-  /* border: 2px solid #e8f05b; */
   color: white;
   background: #182036;
   font-size: 14pt;
@@ -391,8 +390,6 @@ iframe {
     display: none;
   }
   .projects-container {
-    /* padding: 0px auto; */
-    margin: 0px auto;
     position: relative;
     overflow: auto;
     justify-content: center;
@@ -409,7 +406,7 @@ iframe {
   .project-details {
     position: absolute;
     text-align: center;
-    width: 330px;
+    width: 320px;
     height: 220px;
     transition: none;
     transform: none;
@@ -418,18 +415,17 @@ iframe {
     transform: translate(-50%, -50%);
     background: #151821;
   }
-  .projects .overlay {
+  /* .projects .overlay {
     width: 330px;
     height: 220px;
-  }
-  .projects .project-image {
+  } */
+  .projects .project-image{
     display: none;
-    width: 330px;
-    height: 220px;
-    margin-left: none;
   }
   .project-p {
     font-size: 8pt;
+    width: 250px;
+    height: 200px;
   }
   .icon {
     width: 25px;
