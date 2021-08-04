@@ -18,6 +18,7 @@ function Contact() {
             method="post"
             encrypt="text/plain"
             autocomplete="off"
+            rel="noreferrer"
           >
             <input className="input-field" type="text" placeholder="Name" />
             <br />
