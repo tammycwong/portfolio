@@ -322,7 +322,7 @@ iframe {
   height: 480px;
   position: relative;
 }
-footer h5{
+footer {
   background: #151821;
   opacity: 0.6;
   height: 55px;
@@ -330,6 +330,7 @@ footer h5{
   padding-top: 26px;
   position: absolute;
   opacity: 0.6;
+  padding-right: 20px;
 }
 
 @media (max-width: 1100px) {
