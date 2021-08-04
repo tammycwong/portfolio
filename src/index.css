@@ -488,9 +488,11 @@ footer {
   }
   textarea {
     font-size: 0.7rem;
+    width: 75%;
   }
   input {
     font-size: 0.7rem;
+    width: 75%;
   }
   .horizontal-bar {
     width: 50px;
