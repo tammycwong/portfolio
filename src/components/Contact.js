@@ -20,13 +20,13 @@ function Contact() {
             autocomplete="off"
             rel="noreferrer"
           >
-            <input className="input-field" type="text" placeholder="Name" />
+            <input className="input-field" type="text" placeholder="Name" autocomplete="off"/>
             <br />
             <br />
-            <input className="input-field" type="email" placeholder="Enter email" />
+            <input className="input-field" type="email" placeholder="Enter email" autocomplete="off"/>
             <br />
             <br />
-            <textarea className="input-field" type="text" placeholder="Message" />
+            <textarea className="input-field" type="text" placeholder="Message" autocomplete="off"/>
             <br />
             <input id="submit-button" type="submit" value="Submit" />
           </form>
