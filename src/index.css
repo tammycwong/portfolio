@@ -236,6 +236,7 @@ textarea {
 }
 #submit-button:hover {
   color: #e8f05b;
+  cursor: pointer;
 }
 .contact-icon {
   height: 50px;
@@ -273,6 +274,7 @@ a:hover {
 }
 .navbar > a {
   margin-left: 20px;
+  cursor: pointer;
 }
 .resume {
   border: #e8f05b solid 2px;
