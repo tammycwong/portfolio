@@ -76,7 +76,7 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
             <h3 className="">Loo Review: New York City</h3>
             <h4 className="tools">React | Custom CSS</h4>
 
-            <br />
+            {/* <br /> */}
 
             <p className="project-p">
               Loo Review is your go-to app for locating available restrooms in
