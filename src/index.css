@@ -400,10 +400,6 @@ footer {
     position: absolute;
     width: 275px;
     border-radius: 50%;
-    /* top: 50%;
-    left: 50%;
-    margin-top: -600px;
-    margin-left: -130px; */
   }
   .projects-container {
     position: relative;
@@ -413,7 +409,7 @@ footer {
   .projects {
     width: 320px;
     height: 220px;
-    /* position: relative; */
+    position: relative;
     margin-left: 10px;
     padding-left: 0px;
     box-shadow: none;
@@ -424,11 +420,8 @@ footer {
     text-align: center;
     width: 320px;
     height: 220px;
-    transition: none;
-    transform: none;
     left: 50%;
-    opacity: 1;
-    transform: translate(-50%, -50%);
+    opacity: 0.9;
     background: #151821;
     padding-top: 50px;
   }
@@ -436,8 +429,13 @@ footer {
     width: 330px;
     height: 220px;
   } */
-  .projects .project-image{
+  /* .projects .project-image{
     display: none;
+  } */
+  .project-image {
+    width: 320px;
+    height: 220px;
+    opacity: 0.9;
   }
   .project-p {
     font-size: 8pt;
