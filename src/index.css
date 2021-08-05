@@ -97,7 +97,7 @@ h4 {
   justify-content: center;
 }
 .profile-pic {
-  border-radius: 700px;
+  border-radius: 50%;
   max-height: 400px;
   width: auto;
   opacity: 0.6;
@@ -397,7 +397,7 @@ footer {
     z-index: 10;
     position: absolute;
     width: 275px;
-    border-radius: 300px;
+    border-radius: 50%;
     /* top: 50%;
     left: 50%;
     margin-top: -600px;
