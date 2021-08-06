@@ -407,7 +407,7 @@ footer {
     justify-content: center;
   }
   .projects {
-    width: 320px;
+    width: 350px;
     height: 220px;
     position: relative;
     margin-left: 10px;
@@ -418,7 +418,7 @@ footer {
   .project-details {
     /* position: absolute; */
     text-align: center;
-    width: 320px;
+    width: 350px;
     height: 220px;
     left: 50%;
     opacity: 0.9;
@@ -433,7 +433,7 @@ footer {
     display: none;
   } */
   .project-image {
-    width: 320px;
+    width: 350px;
     height: 220px;
     opacity: 0.9;
   }
