@@ -60,32 +60,38 @@ function AboutMe() {
             className="programming-icons"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Devicon-css3-plain.svg/2048px-Devicon-css3-plain.svg.png"
             alt="CSS"
+            title="CSS"
           />
           <img
             className="programming-icons"
             src="https://image.flaticon.com/icons/png/512/732/732212.png"
             alt="HTML"
+            title="HTML"
           />
           <img
             className="programming-icons"
             src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
             alt="JavaScript"
+            title="JavaScript"
           />
 
           <img
             className="programming-icons"
             src="https://www.rapiddg.com/sites/default/files/imce-files/react.png"
             alt="React"
+            title="React"
           />
           <img
             className="programming-icons"
             src="https://dctacademy.com/wp-content/uploads/2015/06/ruby-logo.png"
             alt="Ruby"
+            title="Ruby"
           />
           <img
             className="programming-icons"
             src="https://avatars.githubusercontent.com/u/4223"
             alt="Ruby on Rails"
+            title="Ruby on Rails"
           />
           <h3>Tools:</h3>
           <img
