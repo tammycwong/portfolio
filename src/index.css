@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 14pt;
+  font-size: 2rem;
   margin: 0px auto;
   background-color: #182036;
   color: white;
@@ -27,7 +27,7 @@ p {
   text-align: left;
   line-height: 1.4;
   letter-spacing: 1px;
-  font-size: 12pt;
+  font-size: 1rem;
   padding: 10px;
 }
 h3 {
