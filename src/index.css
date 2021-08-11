@@ -27,7 +27,7 @@ p {
   text-align: left;
   line-height: 1.4;
   letter-spacing: 1px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 10px;
 }
 h3 {
@@ -71,8 +71,8 @@ h4 {
   bottom: 0;
   position: absolute;
   right: 0;
-  margin-bottom: 13px;
-  padding: 7px;
+  /* margin-bottom: 13px; */
+  padding: 0 10px 10px 10px;
   border: 2px solid white;
   text-transform: uppercase;
 }
@@ -321,7 +321,7 @@ iframe {
   position: relative;
 }
 footer {
-  background: #151821;
+  /* background: #151821; */
   opacity: 0.6;
   height: 55px;
   width: 100%;
