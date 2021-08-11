@@ -27,7 +27,7 @@ p {
   text-align: left;
   line-height: 1.4;
   letter-spacing: 1px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 10px;
 }
 h3 {
@@ -89,7 +89,7 @@ h4 {
   position: relative;
 }
 .aboutme {
-  max-width: 500px;
+  max-width: 600px;
 }
 .aboutme-details {
   display: flex;
@@ -171,6 +171,7 @@ h4 {
 .project-p {
   padding: 0px auto;
   margin: 0px auto;
+  font-size: 1rem;
 }
 .disable {
   opacity: 0.3;
