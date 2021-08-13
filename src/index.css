@@ -89,7 +89,7 @@ h4 {
   position: relative;
 }
 .aboutme {
-  max-width: 600px;
+  max-width: 650px;
 }
 .aboutme-details {
   display: flex;
@@ -103,7 +103,7 @@ h4 {
   opacity: 0.7;
   top: 0;
   margin: 15px;
-  padding-top: 40px;
+  /* padding-top: 20px; */
 }
 /* .profile-pic:hover {
   opacity: 1;
