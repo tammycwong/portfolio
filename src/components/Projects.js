@@ -183,7 +183,8 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
             <p className="project-p">
               Simple Pokemon-themed whack a mole.
               <br />
-              Increase your score by clicking on Diglett when it pops up. 
+              Score points by clicking on Diglett. 
+              Beware of Diglett's super fast move, Dig!
             </p>
             <div className="view-button">
               <a
