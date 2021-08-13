@@ -168,6 +168,56 @@ function Projects({ isOpen, setIsOpen, setActiveVideo, activeVideo }) {
           </div>
         </div>
 
+        <div className="projects" data-aos="">
+          {/* <img src="https://i.ibb.co/DKMgB2Z/Screen-Shot-2021-07-26-at-4-34-11-PM.png"/> */}
+          <img
+            className="project-image"
+            src="https://i.ibb.co/gtPL87c/Screen-Shot-2021-08-13-at-4-21-09-PM.png"
+            alt="Whack-A-Diglett"
+          />
+          <div className="overlay"></div>
+          <div className="project-details fadeIn-bottom">
+            <h3>Whack-A-Diglett</h3>
+            <h4 className="tools">JavaScript | Custom CSS</h4>
+
+            <p className="project-p">
+              Simple Pokemon-themed whack a mole.
+              <br />
+              Increase your score by clicking on Diglett when it pops up. 
+            </p>
+            <div className="view-button">
+              <a
+                href="https://whack-a-diglett.netlify.app/"
+                class="project-site"
+                target="_blank"
+              >
+                View Site
+              </a>
+            </div>
+            <div className="icon-align">
+              <a
+                href="https://github.com/tammycwong/whack-a-diglett"
+                target="_blank"
+              >
+                <img
+                  className="icon"
+                  src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
+                  alt="GitHub"
+                />
+              </a>
+
+              <a href="" target="_blank" className="disable" rel="noreferrer">
+                <img
+                  className="icon"
+                  src="https://www.entizersportz.com/wp-content/uploads/2017/10/demo-video-icon.png"
+                  alt="demo"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+
         <div data-aos="" className="projects">
           <img
             src="https://i.ibb.co/XZ73RZK/Screen-Shot-2021-07-26-at-8-54-37-PM.png"
