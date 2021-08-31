@@ -18,9 +18,11 @@ function AboutMe() {
           {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
           {/* </div> */}
           <p className="aboutme">
-            A career changer from hospitality management to tech.
+            <strong>//</strong>A career changer from hospitality management to tech.
             <br />
-            Born, bred and based in Brooklyn, New York. <br />
+            <strong>//</strong>Born, bred and based in Brooklyn, New York. 
+            <br />
+            <br />
 
             I am a <strong>Software Engineer Flatiron School</strong> graduate with a passion for technology and
             creating fun yet beneficial applications-
@@ -46,7 +48,7 @@ function AboutMe() {
 
             <br />
             <br/>
-            <strong>PS: I lived a life without Google.</strong>
+            <strong>//</strong>PS: I lived a life without Google.
           </p>
 
           {/* <div className="profile-pic-container">
