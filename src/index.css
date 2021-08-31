@@ -3,6 +3,9 @@
   justify-content: center;
   margin: 0px auto;
 }
+strong {
+  color:#e8f05b;
+}
 body {
   font-family: "Raleway", sans-serif;
   font-size: 2rem;

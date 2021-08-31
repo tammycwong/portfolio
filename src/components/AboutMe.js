@@ -21,27 +21,32 @@ function AboutMe() {
             A career changer from hospitality management to tech.
             <br />
             Born, bred and based in Brooklyn, New York. <br />
-            I have a passion for creating fun yet beneficial applications-
+
+            I am a <strong>Software Engineer Flatiron School</strong> graduate with a passion for technology and
+            creating fun yet beneficial applications-
             <br />
             it is exhilarating being able to build inspiring and engaging
             products.
             <br />
             <br />
-            I first started coding when I was 15, personalizing my layouts for
-            my blog platforms- Xanga and LiveJournal. <br />
-            I loved changing themes to my site through custom banners, mp3s and
-            dynamic styling with JavaScript and CSS. <br />
-            Each layout tailored to my current mood as an angsty teen.
+            My background in <strong>cognitive and behaviorial psychology</strong> helps me
+            understand the human mind and how it works with <strong>user experience</strong>.
             <br />
-            <br />
-            My background in cognitive and behaviorial psychology helps me
-            understand the human mind and how it works with user experience.
-            <br />
+            <br/>
             Managing a staff of over 80 service professionals, I have a keen
             understanding of how to create a positive and engaging work
             environment. <br />
+            <br/>
+            I first started coding when I was 15, personalizing my layouts for
+            my blog platforms- <strong>Xanga and LiveJournal.</strong> 
             <br />
-            PS: I lived a life without Google.
+            I loved changing themes to my site through custom banners, mp3s and
+            dynamic styling with JavaScript and CSS. <br />
+            Each layout tailored to my current mood as an angsty teen.
+
+            <br />
+            <br/>
+            <strong>PS: I lived a life without Google.</strong>
           </p>
 
           {/* <div className="profile-pic-container">
