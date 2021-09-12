@@ -12,7 +12,7 @@ function AboutMe() {
           <img
             className="profile-pic"
             // src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
-            src="https://i.ibb.co/vd8p8rM/Screen-Shot-2021-08-01-at-11-43-45-AM.png"
+            src="https://i.ibb.co/k1VdwYC/Screen-Shot-2021-09-12-at-6-46-40-PM.png"
             alt="profile pic"
           />
           {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
@@ -100,6 +100,12 @@ function AboutMe() {
             alt="Ruby on Rails"
             title="Ruby on Rails"
           />
+          <img 
+          className="programming-icons"
+          src="https://www.pngrepo.com/download/331488/mongodb.png"
+          alt="MongoDB"
+          title="MongoDB"
+          />
           <h3>Tools:</h3>
           <img
             className="programming-icons"
@@ -149,6 +155,12 @@ function AboutMe() {
             src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png"
             alt="Postman"
             title="Postman"
+          />
+          <img 
+          className="programming-icons"
+          src="https://lh3.googleusercontent.com/proxy/rY56-6DBQ8k2YwCeQOQRnm0RfBDHohaWDX134DSThTTsLtmRSKQtmUNeTsbz8gcew2vrPUOyvS8mONtXni-DAJP20sMEv9baZzosdEdXM49eZnlC_Iof"
+          alt="Redux"
+          title="Redux"
           />
         </div>
       </div>

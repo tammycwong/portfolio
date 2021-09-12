@@ -93,6 +93,8 @@ h4 {
 }
 .aboutme {
   max-width: 650px;
+  padding-top: 30px;
+  margin: 0px;
 }
 .aboutme-details {
   display: flex;
@@ -101,16 +103,15 @@ h4 {
 }
 .profile-pic {
   border-radius: 50%;
-  max-height: 400px;
+  max-height: 350px;
   width: auto;
-  opacity: 0.7;
-  top: 0;
-  margin: 15px;
-  /* padding-top: 20px; */
+  opacity: 0.6;
 }
-/* .profile-pic:hover {
-  opacity: 1;
-} */
+.profile-pic:hover {
+  /* opacity: 0.2; */
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
 .programming-icons {
   height: 50px;
   width: auto;
