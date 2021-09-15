@@ -50,6 +50,20 @@ function Contact() {
             />
           </a>
 
+          <a 
+          href="mailto: tammycwong@gmail.com"
+          target="_blank"
+          >
+
+          <img 
+          className="contact-icon"
+          src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png"
+          height="36px"
+          alt="gmail"
+          title="Gmail"
+          />
+          </a>
+
           <a
             href="https://tammycwong.medium.com/"
             target="_blank"
