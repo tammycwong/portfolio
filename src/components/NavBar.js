@@ -14,7 +14,7 @@ function NavBar() {
         Contact
       </Link>
       <a
-        href="https://drive.google.com/file/d/1EygD0hKfBJICHhkxrskBP6AUkLYT3fsp/view?usp=sharing"
+        href="https://drive.google.com/file/d/11ZgbClwHW4EN-zuvIN9ii7KuZWfuG3YO/view?usp=sharing"
         className="resume"
         target="_blank"
         rel="noreferrer"
