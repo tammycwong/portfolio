@@ -62,6 +62,7 @@ function AboutMe() {
         </div>
 
         <div id="framework">
+          <br/>
           <h3 className="inline">Programming languages:</h3>
           <img
             className="programming-icons"
@@ -158,7 +159,7 @@ function AboutMe() {
           />
           <img 
           className="programming-icons"
-          src="https://lh3.googleusercontent.com/proxy/rY56-6DBQ8k2YwCeQOQRnm0RfBDHohaWDX134DSThTTsLtmRSKQtmUNeTsbz8gcew2vrPUOyvS8mONtXni-DAJP20sMEv9baZzosdEdXM49eZnlC_Iof"
+          src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
           alt="Redux"
           title="Redux"
           />
