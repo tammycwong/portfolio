@@ -1,5 +1,6 @@
 import React from "react";
 import "aos/dist/aos.css";
+// import images from "./images"
 
 function AboutMe() {
   return (
@@ -8,15 +9,12 @@ function AboutMe() {
         <h2 data-aos="fade-up">About Me</h2>
         <div className="horizontal-bar" data-aos="fade-up"></div>
         <div className="aboutme-details">
-          {/* <div className="profile-pic-container"> */}
           <img
             className="profile-pic"
-            // src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
             src="https://i.ibb.co/k1VdwYC/Screen-Shot-2021-09-12-at-6-46-40-PM.png"
             alt="profile pic"
           />
-          {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
-          {/* </div> */}
+
           <p className="aboutme">
             <strong>//</strong>A career changer from hospitality management to tech.
             <br />
@@ -51,14 +49,7 @@ function AboutMe() {
             <strong>//</strong>PS: I lived a life without Google.
           </p>
 
-          {/* <div className="profile-pic-container">
-            <img
-              className="profile-pic"
-              // src="https://i.ibb.co/hCHq2jG/Screen-Shot-2021-07-30-at-12-00-31-PM.png"
-              src ="https://i.ibb.co/vd8p8rM/Screen-Shot-2021-08-01-at-11-43-45-AM.png"
-              alt="profile pic"
-            />
-            {/* <img className="profile-pic" src="https://i.ibb.co/qsxjWp3/Screen-Shot-2021-07-30-at-12-01-49-PM.png"/> */}
+      
         </div>
 
         <div id="framework">
@@ -97,16 +88,17 @@ function AboutMe() {
           />
           <img
             className="programming-icons"
-            src="https://avatars.githubusercontent.com/u/4223"
+            src="public/images/languages/4223.png"
             alt="Ruby on Rails"
             title="Ruby on Rails"
           />
           <img 
           className="programming-icons"
-          src="https://www.pngrepo.com/download/331488/mongodb.png"
-          alt="MongoDB"
-          title="MongoDB"
+          src="https://cdn-images-1.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png"
+          alt="Sass"
+          title="Sass"
           />
+
           <h3>Tools:</h3>
           <img
             className="programming-icons"
@@ -132,13 +124,6 @@ function AboutMe() {
             alt="JWT"
             title="JWT"
           />
-          {/* <img
-            className="programming-icons"
-            src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/48_github-512.png"
-            width="55px"
-            alt="GitHub"
-            title="GitHub"
-          /> */}
           <img
             className="programming-icons"
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/1200px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
