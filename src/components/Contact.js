@@ -57,7 +57,7 @@ function Contact() {
 
           <img 
           className="contact-icon"
-          src="https://cdn.icon-icons.com/icons2/2631/PNG/512/gmail_new_logo_icon_159149.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
           height="36px"
           alt="gmail"
           title="Gmail"

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "aos/dist/aos.css";
 // import images from "./images"
@@ -86,12 +87,12 @@ function AboutMe() {
             alt="Ruby"
             title="Ruby"
           />
-          <img
+          {/* <img
             className="programming-icons"
             src="public/images/languages/4223.png"
             alt="Ruby on Rails"
             title="Ruby on Rails"
-          />
+          /> */}
           <img 
           className="programming-icons"
           src="https://cdn-images-1.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png"
@@ -142,12 +143,12 @@ function AboutMe() {
             alt="Postman"
             title="Postman"
           />
-          <img 
+          {/* <img 
           className="programming-icons"
           src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
           alt="Redux"
           title="Redux"
-          />
+          /> */}
         </div>
       </div>
     </section>
