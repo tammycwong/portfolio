@@ -11,10 +11,10 @@ function AboutMe() {
             id="typing"
             options={{
               strings: [
-                "software developer.",
                 "full stack engineer.",
                 "hot cheetos advocate.",
-                "land mammal.",
+                "Potterhead.",
+                "web developer.",
                 "Pokemon master.",
               ],
               autoStart: true,

@@ -396,14 +396,14 @@ footer {
   p.aboutme {
     position: relative;
     margin: 0px 15px 0px 15px;
-    margin-top: 255px;
+    margin-top: 275px;
   }
   p {
     font-size: 0.75rem;
   }
   .profile-pic {
     text-align: center;
-    z-index: 10;
+    /* z-index: 10; */
     position: absolute;
     width: 275px;
     border-radius: 50%;
