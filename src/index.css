@@ -389,24 +389,21 @@ footer {
   .aboutme-container {
     /* max-width: 500px; */
     position: relative;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     align-items: center;
     justify-content: center;
   }
   p.aboutme {
     position: relative;
     margin: 0px 15px 0px 15px;
-    margin-top: 275px;
+    margin-top: 375px;
   }
   p {
     font-size: 0.75rem;
   }
   .profile-pic {
-    text-align: center;
-    /* z-index: 10; */
     position: absolute;
-    width: 275px;
-    border-radius: 50%;
+    width: 350px;
   }
   .projects-container {
     position: relative;
