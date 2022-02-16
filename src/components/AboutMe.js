@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "aos/dist/aos.css";
-import image from "images/me.png";
+import me from "images/me.png";
 import creativeSuites from "images/tools/adobe_creative_suites.png"
 import elephant from "images/tools/elephant.png"
 import postman from "images/tools/postman.png"
@@ -23,11 +23,13 @@ function AboutMe() {
         <h2 data-aos="fade-up">About Me</h2>
         <div className="horizontal-bar" data-aos="fade-up"></div>
         <div className="aboutme-details">
+          <a href="https://hackertyper.com/" target="_blank">
           <img
             className="profile-pic"
-            src={image}
+            src={me}
             alt="profile pic"
           />
+          </a>
 
           <p className="aboutme">
             <strong>//</strong>A career changer from hospitality management to tech.
@@ -156,12 +158,6 @@ function AboutMe() {
             alt="Postman"
             title="Postman"
           />
-          {/* <img 
-          className="programming-icons"
-          src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png"
-          alt="Redux"
-          title="Redux"
-          /> */}
         </div>
       </div>
     </section>
