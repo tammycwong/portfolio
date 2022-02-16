@@ -1,2 +1,2 @@
 # Tammy Wong's Portfolio
-Check out my <a href="www.tammycwong.com">portfolio</a>!
+Check out my <a href="https://tammycwong.com/">portfolio</a>!
