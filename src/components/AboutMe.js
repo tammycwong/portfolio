@@ -1,7 +1,20 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import "aos/dist/aos.css";
-// import images from "./images"
+import image from "images/me.png";
+import creativeSuites from "images/tools/adobe_creative_suites.png"
+import elephant from "images/tools/elephant.png"
+import postman from "images/tools/postman.png"
+import figma from "images/tools/figma.png"
+import git from "images/tools/git.png"
+import sqlite from "images/tools/sqlite.png"
+import react from "images/languages/react.png"
+import css from "images/languages/css.png"
+import html from "images/languages/html.png"
+import javascript from "images/languages/javascript.png"
+import ruby from "images/languages/ruby.png"
+import rails from "images/languages/rails.png"
+
 
 function AboutMe() {
   return (
@@ -12,7 +25,7 @@ function AboutMe() {
         <div className="aboutme-details">
           <img
             className="profile-pic"
-            src="https://i.ibb.co/k1VdwYC/Screen-Shot-2021-09-12-at-6-46-40-PM.png"
+            src={image}
             alt="profile pic"
           />
 
@@ -58,41 +71,41 @@ function AboutMe() {
           <h3 className="inline">Programming languages:</h3>
           <img
             className="programming-icons"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Devicon-css3-plain.svg/2048px-Devicon-css3-plain.svg.png"
+            src={css}
             alt="CSS"
             title="CSS"
           />
           <img
             className="programming-icons"
-            src="https://image.flaticon.com/icons/png/512/732/732212.png"
+            src={html}
             alt="HTML"
             title="HTML"
           />
           <img
             className="programming-icons"
-            src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png"
+            src={javascript}
             alt="JavaScript"
             title="JavaScript"
           />
 
           <img
             className="programming-icons"
-            src="https://www.rapiddg.com/sites/default/files/imce-files/react.png"
+            src={react}
             alt="React"
             title="React"
           />
           <img
             className="programming-icons"
-            src="https://dctacademy.com/wp-content/uploads/2015/06/ruby-logo.png"
+            src={ruby}
             alt="Ruby"
             title="Ruby"
           />
-          {/* <img
+          <img
             className="programming-icons"
-            src="public/images/languages/4223.png"
+            src={rails}
             alt="Ruby on Rails"
             title="Ruby on Rails"
-          /> */}
+          />
           <img 
           className="programming-icons"
           src="https://cdn-images-1.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png"
@@ -103,19 +116,19 @@ function AboutMe() {
           <h3>Tools:</h3>
           <img
             className="programming-icons"
-            src="https://www.postgresql.org/media/img/about/press/elephant.png"
+            src={elephant}
             alt="PostgreSQL"
             title="PostgreSQL"
           />
           <img
             className="programming-icons"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Sqlite-square-icon.svg/2048px-Sqlite-square-icon.svg.png"
+            src={sqlite}
             alt="SQLite"
             title="SQLite"
           />
           <img
             className="programming-icons"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png"
+            src={figma}
             alt="Figma"
             title="Figma"
           />
@@ -127,19 +140,19 @@ function AboutMe() {
           />
           <img
             className="programming-icons"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Adobe_Creative_Cloud_rainbow_icon.svg/1200px-Adobe_Creative_Cloud_rainbow_icon.svg.png"
+            src={creativeSuites}
             alt="Adobe Creative Cloud"
             title="Adobe Creative Cloud"
           />
           <img
             className="programming-icons"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png"
+            src={git}
             alt="Git"
             title="Git"
           />
           <img
             className="programming-icons"
-            src="https://user-images.githubusercontent.com/7853266/44114706-9c72dd08-9fd1-11e8-8d9d-6d9d651c75ad.png"
+            src={postman}
             alt="Postman"
             title="Postman"
           />
