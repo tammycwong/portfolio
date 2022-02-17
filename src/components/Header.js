@@ -5,17 +5,19 @@ function AboutMe() {
   return (
     <div>
       <div className="header">
-        <h2 id="h2-header">I am Tammy Wong and I am a </h2>
+        <h2 id="h2-header">I am Tammy Wong and I am </h2>
         <div className="typing-demo">
           <Typewriter
             id="typing"
             options={{
               strings: [
-                "full stack engineer.",
-                "hot cheetos advocate.",
-                "Potterhead.",
-                "web developer.",
-                "Pokemon master.",
+                "a full stack engineer.",
+                "trying my best.",
+                "a Potterhead.",
+                "an air fryer enthusiast.",
+                "a hot cheetos advocate.",
+                "obsessed with SVU.",
+                "a Pokemon master.",
               ],
               autoStart: true,
               loop: true,

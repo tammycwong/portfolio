@@ -86,19 +86,31 @@ h4 {
 .icon:hover {
   opacity: 0.3;
 }
-.aboutme-container {
+/* .aboutme-container {
   display: flex;
-  flex-direction: column;
-  position: relative;
 }
 .aboutme {
   max-width: 650px;
-  padding-top: 30px;
+}
+.profile-pic {
+  border-radius: 50%;
+  max-height: 450px;
+  width: auto;
+  opacity: 0.6;
+  margin: auto;
+} */
+
+.aboutme-container {
+  display: flex;
+  flex-direction: column;
+}
+.aboutme {
+  max-width: 650px;
+  /* padding-top: 30px; */
   margin: 0px;
 }
 .aboutme-details {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 .profile-pic {
@@ -110,7 +122,6 @@ h4 {
 
 }
 .profile-pic:hover {
-  /* opacity: 0.2; */
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -246,8 +257,8 @@ textarea {
   cursor: pointer;
 }
 .contact-icon {
-  height: 50px;
-  width: auto;
+  height: 40px;
+  width: 40px;
   padding: 40px 30px 30px 0px;
   display: inline;
 }
@@ -387,9 +398,7 @@ footer {
     font-size: 8pt;
   }
   .aboutme-container {
-    /* max-width: 500px; */
     position: relative;
-    /* margin-bottom: 100px; */
     align-items: center;
     justify-content: center;
   }
@@ -403,7 +412,7 @@ footer {
   }
   .profile-pic {
     position: absolute;
-    width: 350px;
+    width: 330px;
   }
   .projects-container {
     position: relative;
@@ -420,7 +429,6 @@ footer {
     overflow: hidden;
   }
   .project-details {
-    /* position: absolute; */
     text-align: center;
     width: 350px;
     height: 220px;

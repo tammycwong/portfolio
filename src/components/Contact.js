@@ -45,7 +45,6 @@ function Contact() {
             <img
               className="contact-icon"
               src="https://image.flaticon.com/icons/png/512/174/174857.png"
-              height="36px"
               alt="linked in"
               title="LinkedIn"
             />
@@ -59,7 +58,6 @@ function Contact() {
           <img 
           className="contact-icon"
           src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg"
-          height="36px"
           alt="gmail"
           title="Gmail"
           />
@@ -72,7 +70,6 @@ function Contact() {
             <img
               className="contact-icon"
               src="https://cdn4.iconfinder.com/data/icons/social-media-circle-7/512/Medium_circle-512.png"
-              height="36px"
               alt="medium"
               title="Medium"
             />
@@ -105,7 +102,7 @@ function Contact() {
         </div>
       </div>
       <footer>
-          <h5>©2021</h5>
+          <h5>© 2022 | <strong>Designed & coded</strong> by Tammy Wong</h5>
       </footer>
     </section>
   );
