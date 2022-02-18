@@ -16,8 +16,6 @@ function AboutMe() {
                 "a Potterhead.",
                 "an air fryer enthusiast.",
                 "a hot cheetos advocate.",
-                "obsessed with SVU.",
-                "a Pokemon master.",
               ],
               autoStart: true,
               loop: true,

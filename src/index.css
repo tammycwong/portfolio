@@ -67,14 +67,12 @@ h4 {
   height: 320px;
   transition: 0.7s ease;
   backface-visibility: hidden;
-  /* opacity: 0.7; */
 }
 .view-button {
   text-align: right;
   bottom: 0;
   position: absolute;
   right: 0;
-  /* margin-bottom: 13px; */
   padding: 10px;
   border: 2px solid white;
   text-transform: uppercase;
@@ -118,7 +116,7 @@ h4 {
   max-height: 350px;
   width: auto;
   opacity: 0.6;
-  margin: 20px;
+  margin: 0px 20px;
 
 }
 .profile-pic:hover {
@@ -370,7 +368,6 @@ footer {
     padding-right: 3px;
     margin: 7px;
     font-size: 0.7rem;
-    /* opacity: 0.7; */
   }
   /* .navbar footer{
     height: 20px;

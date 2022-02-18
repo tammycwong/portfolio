@@ -102,7 +102,7 @@ function Contact() {
         </div>
       </div>
       <footer>
-          <h5>© 2022 | <strong>Designed & coded</strong> by Tammy Wong</h5>
+          <h5>© 2022 | <strong>Design & build</strong> by Tammy Wong</h5>
       </footer>
     </section>
   );

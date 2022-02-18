@@ -27,44 +27,43 @@ function AboutMe() {
           </a>
 
           <p className="aboutme">
-              <strong>//</strong>A career changer from customer service
+              {/* <strong>//</strong>A career changer from customer service
               management to tech.
+              <br /> */}
+              <strong>Born, bred and based in Brooklyn, New York.</strong>
               <br />
-              <strong>//</strong>Born, bred and based in Brooklyn, New York.
-              <br />
-              <br />I am a <strong>Software Engineer</strong> with a passion for
-              technology. I love building fun and very mildly (but sometimes
-              moderately) marketable applications-
-              <br />
-              <strong>
-                it is exhilarating being able to create inspiring and engaging
-                products.
-              </strong>
+              <br />I am a Software Engineer with a passion for 
+              bringing technical and visual aspects of digital products to life.
+              It is exhilarating being able to create inspiring and engaging 
+              applicatons.
               <br />
               <br />
-              My background in{" "}
-              <strong>cognitive and behaviorial psychology</strong> helps me
-              understand the human mind and how it works with{" "}
-              <strong>user experience</strong>.
+              My background in cognitive and behaviorial psychology helps me
+              understand the human mind and how it works with user experience.
               <br />
               <br />
-              Managing a staff of over 80 service professionals, I have a keen
+              {/* Managing a staff of over 80 service professionals, I have a keen
               understanding of how to create a positive and engaging work
-              environment. <br />
-              <br />I first started coding when I was 15, personalizing my
-              layouts for my blog platforms-{" "}
-              <strong>Xanga and LiveJournal.</strong>
+              environment. 
               <br />
-              I loved changing themes to my site through custom banners, mp3s
-              and dynamic styling with JavaScript and CSS. <br />
-              Each layout tailored to my current mood as an angsty teen.
+              <br /> */}
+              I first started coding when I was 15, personalizing my
+              layouts for my blog platforms. I loved changing themes 
+              to my site through custom banners, mp3s and dynamic styling 
+              with JavaScript and CSS. 
+              <br />
+              {/* Each layout tailored to my current mood as an angsty teen. */}
               <br />
               <br />
-              <strong>//</strong>PS: I lived a life without Google.
+
+              PS: I lived a life without Google.
+              <br />
+              <br />
             </p>
         </div>
 
         <div id="framework">
+          <br />
           <br />
           <h3 className="inline">Programming languages:</h3>
           <img className="programming-icons" src={css} alt="CSS" title="CSS" />
